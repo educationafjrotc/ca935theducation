@@ -1,0 +1,75 @@
+
+  @font-face {
+    font-family:'cocogoose';
+    src: url('C:\\Users\\sanam\\ca935_edu\\edu_website\\static\\cocogoose\\CocogoosePro-trial.ttf');
+  }
+
+  @font-face {
+    font-family:'louis-george-cafe';
+    src: url('C:\\Users\\sanam\\ca935_edu\\edu_website\\static\\louis_george_cafe\\Louis George Cafe.ttf');
+  }
+
+  @font-face {
+    font-family:'kollera';
+    src: url('C:\\Users\\sanam\\ca935_edu\\edu_website\\static\\kollera\\Kollera.otf');
+  }
+
+  @media (max-width: 1000px) {
+    .HideOnMobile {
+        display: none;
+    }
+    .ShowOnMobile {
+        display: initial;
+    }
+  }
+
+  @media (min-width: 1031px) {
+    .HideOnMobile {
+        display: initial;
+    }
+    .ShowOnMobile {
+        display: none;
+    }
+  }
+
+  html, body {
+    background-color: #FCFAEE;
+    font-family:'louis-george-cafe';
+    color: #000000;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    margin-top:2.5vh;
+    font-family:'cocogoose';
+    text-align:center
+  }
+
+  p, ul {
+    margin-left:5vw;
+    margin-right:6vw;
+    text-align:center;
+    font-size:18px;
+  }
+  
+  .nav-link, .nav_color {
+    background-color: #6BCEFF;
+    color: rgb(1,22,39);
+  }
+
+  .header_link {
+    background-color: #6BCEFF;
+    font-family:'kollera';
+    text-align:center;
+    font-size:4vh;
+  } 
+  
+  a:link, a:visited {
+    color: #011627;
+    text-decoration:none;
+  }
+
+  a:hover {
+    color: #FCFAEE;
+  }
