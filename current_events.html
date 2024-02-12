@@ -12,7 +12,7 @@
     <title>CA-935th's Education Website</title>
     <link rel="shortcut icon" type="image/x-icon" href='static/images/favicon.ico'>
     <style>
-        .month_collapsible {
+        .event_collapsible {
             background-color: #F0F0F0;
             cursor: pointer;
             width: 92vw;
@@ -32,8 +32,9 @@
             margin-left:3vw;
             margin-right:3vw;
             z-index: 1;
+            text-wrap:wrap;
         }
-        .month_collapsible:hover{
+        .event_collapsible:hover{
             background-color: #FB3640;
             color: #FCFAEE;
         }
@@ -43,7 +44,7 @@
 <body>
     <nav class="navbar navbar-expand-lg nav_color">
         <img src="static\images\srhs_edu_owl-cropped.png" alt="website logo" class="HideOnMobile">
-        <a class="navbar-brand header_link" href="index.html">CA-935th Education</a>
+        <a class="navbar-brand header_link" href="https://educationafjrotc.github.io/ca935theducation/">CA-935th Education</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#FCFAEE">
           <img src="static\images\srhs_edu_owl-cropped.png" alt="click me!">
         </button>
@@ -63,22 +64,22 @@
       </nav>
     <h1> Current Events </h1>
     <!--
-    <button type ='button' class='month_collapsible'> August </button>
+    <button type ='button' class='event_collapsible'> August </button>
     <div class='dropdown' id='august'> <p>coming soon!</p> </div>
 
-    <button type ='button' class='month_collapsible'> September </button>
+    <button type ='button' class='event_collapsible'> September </button>
     <div class='dropdown'> <p>coming soon!</p> </div>
 
-    <button type ='button' class='month_collapsible'> October </button>
+    <button type ='button' class='event_collapsible'> October </button>
     <div class='dropdown'> <p>coming soon!</p> </div>
 
-    <button type ='button' class='month_collapsible'> November </button>
+    <button type ='button' class='event_collapsible'> November </button>
     <div class='dropdown'> <p>coming soon!</p> </div>
 
-    <button type ='button' class='month_collapsible'> December </button>
+    <button type ='button' class='event_collapsible'> December </button>
     <div class='dropdown'> <p>coming soon!</p> </div>
     -->
-    <button type ='button' class='month_collapsible'> January </button>
+    <button type ='button' class='event_collapsible'> January </button>
     <div class='dropdown'> <ul>
         <li>
             January 22, a giraffe in Mexico makes the journey to another with zoo with a more suitible climate.
@@ -94,43 +95,43 @@
         </li>
     </ul> </div>
     <!--
-    <button type ='button' class='month_collapsible'> Febuary </button>
+    <button type ='button' class='event_collapsible'> Febuary </button>
     <div class='dropdown'> <ul>
         <li>
             
         </li>
     </ul> </div>
 
-    <button type ='button' class='month_collapsible'> March </button>
+    <button type ='button' class='event_collapsible'> March </button>
     <div class='dropdown'> <p>coming soon!</p> </div>
 
-    <button type ='button' class='month_collapsible'> April </button>
+    <button type ='button' class='event_collapsible'> April </button>
     <div class='dropdown'> <p>coming soon!</p> </div>
 
-    <button type ='button' class='month_collapsible'> May </button>
+    <button type ='button' class='event_collapsible'> May </button>
     <div class='dropdown'> <p>coming soon!</p> </div>
 
-    <button type ='button' class='month_collapsible'> June </button>
+    <button type ='button' class='event_collapsible'> June </button>
     <div class='dropdown'> <p>coming soon!</p> </div>
 
-    <button type ='button' class='month_collapsible'> July </button>
+    <button type ='button' class='event_collapsible'> July </button>
     <div class='dropdown'> <p>coming soon!</p> </div>
     -->
 </body>
 <script>
-var month = document.getElementsByClassName("month_collapsible");
-var i;
-for (i = 0; i < month.length; i++) {
-    month[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-        content.style.display = "none";
-    } else {
-        content.style.display = "block";
-    }
-  });
-}
-
+  //adapted from w3schools
+  var event = document.getElementsByClassName("event_collapsible");
+  var i;
+  for (i = 0; i < event.length; i++) {
+      event[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+          content.style.display = "none";
+      } else {
+          content.style.display = "block";
+      }
+    });
+  }
 </script>
 
