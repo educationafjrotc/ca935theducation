@@ -1,17 +1,17 @@
 
   @font-face {
     font-family:'cocogoose';
-    src: url('C:\\Users\\sanam\\ca935_edu\\edu_website\\static\\cocogoose\\CocogoosePro-trial.ttf');
+    src: url('educationafjrotc/ca935theducation/static/cocogoose/CocogoosePro-trial.ttf');
   }
 
   @font-face {
     font-family:'louis-george-cafe';
-    src: url('C:\\Users\\sanam\\ca935_edu\\edu_website\\static\\louis_george_cafe\\Louis George Cafe.ttf');
+    src: url('educationafjrotc/ca935theducation/static/louis_george_cafe/Louis George Cafe.ttf');
   }
 
   @font-face {
     font-family:'kollera';
-    src: url('C:\\Users\\sanam\\ca935_edu\\edu_website\\static\\kollera\\Kollera.otf');
+    src: url('educationafjrotc/ca935theducation/static/kollera/Kollera.otf');
   }
 
   @media (max-width: 1000px) {
