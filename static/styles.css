@@ -1,17 +1,17 @@
 
   @font-face {
     font-family:'cocogoose';
-    src: url('static/cocogoose/CocogoosePro-trial.ttf');
+    src: url('cocogoose/CocogoosePro-trial.ttf');
   }
 
   @font-face {
     font-family:'louis-george-cafe';
-    src: url('static/louis_george_cafe/Louis George Cafe.ttf');
+    src: url('louis_george_cafe/Louis George Cafe.ttf');
   }
 
   @font-face {
     font-family:'kollera';
-    src: url('static/kollera/Kollera.otf');
+    src: url('kollera/Kollera.otf');
   }
 
   @media (max-width: 1000px) {
