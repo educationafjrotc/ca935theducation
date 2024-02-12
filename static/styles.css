@@ -46,11 +46,12 @@
     text-align:center
   }
 
-  p, ul {
+  p, ul, li {
     margin-left:5vw;
     margin-right:6vw;
     text-align:center;
     font-size:18px;
+    text-wrap:wrap;
   }
   
   .nav-link, .nav_color {
