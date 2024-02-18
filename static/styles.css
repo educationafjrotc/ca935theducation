@@ -35,7 +35,7 @@
   html, body {
     background-color: #FCFAEE;
     font-family:'louis-george-cafe';
-    color: #000000;
+    color: #011627;
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -56,7 +56,7 @@
   
   .nav-link, .nav_color {
     background-color: #6BCEFF;
-    color: rgb(1,22,39);
+    color: #011627;
   }
 
   .header_link {
@@ -66,11 +66,11 @@
     font-size:4vh;
   } 
   
-  a:link, a:visited {
+  .nav-link:link, .nav-link:visited {
     color: #011627;
     text-decoration:none;
   }
 
-  a:hover {
+  .nav-link:hover {
     color: #FCFAEE;
   }
