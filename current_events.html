@@ -2,214 +2,274 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="static/styles.css" />
-  <title>CA-935th's Education Website</title>
-  <link rel="shortcut icon" type="image/x-icon" href='static/images/favicon.ico'>
-  <style>
-    .event_collapsible {
-      background-color:#F0F0F0;
-      cursor:pointer;
-      width:92vw;
-      margin-left:3vw;
-      margin-right:3vw;
-      border:none;
-      text-align:center;
-      outline:none;
-      font-size:30px;
-      margin-top:1vh;
-    }
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>CA-935th's Education Website</title>
+    <link rel="shortcut icon" type="image/x-icon" href='static/images/favicon.ico'>
+    <style> 
+        h2{
+            padding-top:1vw;
+        }
 
-    .dropdown{
-      display:none;
-      width:100vw;
-      background-color:#F0F0F0;
-      width: 92vw;
-      margin-left:3vw;
-      margin-right:3vw;
-      z-index:1;
-      text-wrap:wrap;
-      text-align:left;
-    }
+        footer{
+          bottom:0;
+          left:0;
+        }
 
-    .event_collapsible:hover{
-      background-color:#FB3640;
-      color:#FCFAEE;
-    }
+        .current_desktop h2, .current_mobile h2{
+          text-align:center;
+        }
 
-    
-  </style>
+        .sidebar_desktop{
+          width:25vw;
+          float:left;
+        }
+
+        #sidebar_mobile{
+          display: none;
+          width: 90vw;
+          overflow: hidden;
+          float:left;
+          position:relative;
+          margin-left:5vw;
+        }
+
+
+        .month{
+          margin:0.5vw;
+          text-align:center;
+          background-color:#00C7CE;
+          border-style:solid;
+          border-width:3px;
+          border-color:#011627;
+          border-radius:10px;
+        }
+
+        .current_mobile{
+          padding-bottom:5vh;
+        }
+
+        #toggle{
+          width:5vw;
+          height:100%;
+          float:left;
+          display: inline-block;
+          cursor: pointer;
+          margin-left:1vw;
+          margin-right:3vw;
+        }
+
+        .bar1, .bar2, .bar3 {
+          width: 35px;
+          height: 5px;
+          background-color: black;
+          margin: 6px 0;
+          transition: 0.4s;
+          margin-right: 20px;
+        }
+
+        .change .bar1 {
+          -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+          transform: rotate(-45deg) translate(-9px, 6px);
+        }
+
+        .change .bar2 {
+          opacity: 0;
+        }
+
+        .change .bar3 {
+          -webkit-transform: rotate(45deg) translate(-8px, -8px);
+          transform: rotate(45deg) translate(-8px, -8px);
+        }
+    </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg nav_color">
-    <img src="static\images\srhs_edu_owl-cropped.png" alt="website logo" class="HideOnMobile">
-    <a class="navbar-brand header_link nav-link" href="index.html">CA-935th Education</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#6BCEFF">
-      <img src="static\images\srhs_edu_owl-cropped.png" alt="click me!">
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="scholarships.html">Scholarships<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="current_events.html">Current Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="knowledge.html">Knowledge</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg nav_color">
+        <img src="static\images\new_owl_diff_eyes(resized).png" alt="website logo" class="HideOnMobile">
+        <a class="navbar-brand header_link" href="index.html">CA-935th Education</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#FDFBF3">
+          <img src="static\images\new_owl_diff_eyes(resized).png" alt="click me!">
+        </button>
+        <div class="navbar-collapse collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="scholarships.html">Scholarships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="current_events.html">Current Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="knowledge.html">Knowledge</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="main">
+    <div class="HideOnMobile">
+        <div class="sidebar_desktop">
+            <div class="past_future">
+                <h2>Past Events</h2>
+                <div class="month">
+                    <h4>January</h4>
+                </div>
+                <div class="month">
+                    <h4>February</h4>
+                </div>
+                <div class="month">
+                    <h4>March</h4>
+                </div>
+                <div class="month">
+                    <h4>April</h4>
+                </div>
+                <div class="month">
+                    <h4>May</h4>
+                </div>
+                <div class="month">
+                    <h4>July</h4>
+                </div>
+                <div class="month">
+                    <h4>August</h4>
+                </div>
+                <div class="month">
+                    <h4>September</h4>
+                </div>
+                <div class="month">
+                    <h4>October</h4>
+                </div>
+                <div class="month">
+                    <h4>November</h4>
+                </div>
+                <div class="month">
+                    <h4>December</h4>
+                </div>
+            </div>
+        </div>
+        <div class="current_desktop">
+            <h2>*current month*'s events</h2>
+        </div>
     </div>
-  </nav>
-
-  <h1> Current Events </h1>
-  <!--
-  <button type ='button' class='event_collapsible'> August </button>
-  <div class='dropdown'> <p>coming soon!</p> </div>
-
-  <button type ='button' class='event_collapsible'> September </button>
-  <div class='dropdown'> <p>coming soon!</p> </div>
-
-  <button type ='button' class='event_collapsible'> October </button>
-  <div class='dropdown'> <p>coming soon!</p> </div>
-
-  <button type ='button' class='event_collapsible'> November </button>
-  <div class='dropdown'> <p>coming soon!</p> </div>
-
-  <button type ='button' class='event_collapsible'> December </button>
-  <div class='dropdown'> <p>coming soon!</p> </div>
-  -->
-  <button type ='button' class='event_collapsible'> January </button>
-  <div class='dropdown'> <ul>
-      <li>
-          January 22, a giraffe in Mexico makes the journey to another with zoo with a more suitable climate.
-          <a href="https://www.nbcnews.com/news/latino/benito-giraffe-makes-long-journey-better-climate-central-mexico-rcna135069">https://www.nbcnews.com/news/latino/benito-giraffe-makes-long-journey-better-climate-central-mexico-rcna135069</a>
-      </li>
-      <br>
-      <li>
-          January 30th, FAFSA results are delayed due to errors in the application.
-          <a href="https://www.nbcnews.com/business/personal-finance/fafsa-financial-aid-new-delays-processing-error-corrections-rcna136408">https://www.nbcnews.com/business/personal-finance/fafsa-financial-aid-new-delays-processing-error-corrections-rcna136408</a>
-      </li>
-      <br>
-      <li>
-          January 30th, a father son duo threatened to conduct a school shooting at Rancho Bernardo high school. 
-          <a href="https://www.nbcnews.com/news/us-news/father-son-arrested-san-diego-high-school-shooting-threat-rcna136427">https://www.nbcnews.com/news/us-news/father-son-arrested-san-diego-high-school-shooting-threat-rcna136427</a>
-      </li>
-  </ul> </div>
-  
-  <button type ='button' class='event_collapsible'> February </button>
-  <div class='dropdown'> <ul>
-      <li>
-        States in the northeast are battling recording breaking snow.
-        <a href="https://www.usatoday.com/story/news/weather/2024/02/13/winter-storm-northeast-noreaster-live-updates/72578397007/">https://www.usatoday.com/story/news/weather/2024/02/13/winter-storm-northeast-noreaster-live-updates/72578397007/</a>  
-      </li>
-      <br>
-      <li>
-        Biden imposes sanctions on Russia in response to Navalny's Death.
-        <a href="https://www.nbcnews.com/politics/white-house/biden-administration-impose-major-sanctions-hold-russia-accountable-na-rcna139599">https://www.nbcnews.com/politics/white-house/biden-administration-impose-major-sanctions-hold-russia-accountable-na-rcna139599</a>
-      </li>
-      <br>
-      <li>
-        After being voted as the South Carolina Republican primary over his rival, Nikki Haley, Former President Donald Trump 
-        looks forward to his likely rematch with President Biden during the November Elections later this year, all while 
-        remarking on the current actions of his fellow candidates. <br>
-        <a href="https://www.bbc.com/news/world-us-canada-68395414">https://www.bbc.com/news/world-us-canada-68395414</a>
-      </li>
-  </ul> </div>
-
-  <button type ='button' class='event_collapsible'> March </button>
-  <div class='dropdown'> <ul> 
-    <li>
-      Jack Teixeira, a Massachusetts Air National Guardsman, pleaded guilty to all six counts he faced under the Espionage Act
-      for spreading national defense information. He agreed to a debrief with the intelligence community.  In exchange he would 
-      be required to only serve 200 months. <br>
-      <a href=" https://www.cnn.com/2024/03/04/politics/jack-teixeira-pleads-guilty/index.html"> https://www.cnn.com/2024/03/04/politics/jack-teixeira-pleads-guilty/index.html</a>
-    </li>
-    <br>
-    <li>
-      As the Ukrainian military is facing weapons shortages, President Biden has responded with a 300 million dollar weapons 
-      package in aid of the Ukrainian struggle. <br>
-      <a href="https://www.nbcnews.com/politics/white-house-provide-300-million-weapons-package-ukraine-rcna143021">https://www.nbcnews.com/politics/white-house-provide-300-million-weapons-package-ukraine-rcna143021</a>
-    </li>
-    <br>
-    <li>
-      In Russia, Putin has won a landslide election and secures his fifth term as president. <br>
-      <a href="https://www.bbc.com/news/world-europe-68596231">https://www.bbc.com/news/world-europe-68596231</a>
-    </li>
-    <li>
-      Lost power, a mayday call and the crash that brought down a Baltimore bridge. <br>
-      <a href="https://www.bbc.co.uk/news/world-us-canada-68670567">https://www.bbc.co.uk/news/world-us-canada-68670567</a>
-    </li>
-  </ul> </div>
-
-  <button type ='button' class='event_collapsible'> April </button>
-  <div class='dropdown'><ul>
-    <li>
-      Taylor Swift is now among the richest billionaires in the world <br>
-      <a href="https://www.bbc.com/news/business-68711921">https://www.bbc.com/news/business-68711921</a>
-    </li>
-    <br>
-    <li>
-      The scientist who proposed the higgs-boson particle, Peter Higgs, has died, aged 94. In 2012, the Large Hadron Collider confirmed the existence of the theoretical particle; Peter Higgs’ theory opened a whole new branch of particle physics. <br>
-      <a href="https://www.bbc.com/news/science-environment-68774195">https://www.bbc.com/news/science-environment-68774195</a>
-    </li>
-    <br>
-    <li>
-      Former president Donald Trump has begun his hush money trial. There are 34 felony counts of falsifying business records against him. He is also the first former US president to undergo a criminal trial. <br>
-      <a href="https://amp-cnn-com.cdn.ampproject.org/v/s/amp.cnn.com/cnn/2024/04/15/politics/takeaways-trump-hush-money-trial?amp_js_v=0.1&amp_gsa=1#webview=1">https://amp-cnn-com.cdn.ampproject.org/v/s/amp.cnn.com/cnn/2024/04/15/politics/takeaways-trump-hush-money-trial?amp_js_v=0.1&amp_gsa=1#webview=1</a>
-    </li>
-    <br>
-    <li>
-      Despite state recognition by 139 of the 193 UN members, the US exercised their veto power which cancelled the majority votes in favor of admitting Palestine into the UN. <br>
-      <a href="https://www.latimes.com/politics/story/2024-04-18/palestinians-united-nations-membership">https://www.latimes.com/politics/story/2024-04-18/palestinians-united-nations-membership</a>
-
-    </li>
-  </ul> </div>
-
-  <button type ='button' class='event_collapsible'> May </button>
-  <div class='dropdown'> <ul>
-    <li>
-      More than 100 people in Spain and the UK were arrested for scamming individuals out of their money by claiming to be family members in distress. <br>
-      <a href="https://www.bbc.com/news/world-europe-68931214">https://www.bbc.com/news/world-europe-68931214</a>
-    </li>
-    <li>
-      The world’s largest election is taking place in India. Separated into multiple faces, voters decide which candidates earn the 93 seats in the lower house of India’s Parliament. The election will end on June 1st. 
-      <a href="https://www.bbc.co.uk/news/extra/2gd2po82go/big-india-election">https://www.bbc.co.uk/news/extra/2gd2po82go/big-india-election</a>
-    </li>
-  </ul> </div>
-
-  <!--
-  <button type ='button' class='event_collapsible'> June </button>
-  <div class='dropdown'> <p>coming soon!</p> </div>
-
-  <button type ='button' class='event_collapsible'> July </button>
-  <div class='dropdown'> <p>coming soon!</p> </div>
-  -->
+    <div class="ShowOnMobile">
+        <div id="toggle" onclick="myFunction(this)" onclick="myfunc()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div id="sidebar_mobile">
+            <div class="past_future">
+                <h2>Past Scholarships</h2>
+                <div class="month">
+                    <h4>January</h4>
+                </div>
+                <div class="month">
+                    <h4>February</h4>
+                </div>
+                <div class="month">
+                    <h4>March</h4>
+                </div>
+                <div class="month">
+                    <h4>April</h4>
+                </div>
+                <div class="month">
+                    <h4>May</h4>
+                </div>
+                <div class="month">
+                    <h4>June</h4>
+                </div>
+                <div class="month">
+                  <h4>July</h4>
+              </div>
+              <div class="month">
+                  <h4>August</h4>
+              </div>
+              <div class="month">
+                  <h4>September</h4>
+              </div>
+              <div class="month">
+                  <h4>October</h4>
+              </div>
+              <div class="month">
+                  <h4>November</h4>
+              </div>
+              <div class="month">
+                  <h4>December</h4>
+              </div>
+            </div>
+          </div>            
+        <div class="current_mobile">
+            <h3>*current month*'s events</h3>
+        </div>
+    </div>
+    <footer class="HideOnMobile">
+      <div class="container">
+        <h1 class="name">CA-935th<br>Education</h1>
+        <div class="form_elements">
+          <h3>Navigation</h3>
+          <p> <a href="C:\Users\sanam\education_website\ca935theducation\index copy.html">home page</a> <br>
+              <a href="C:\Users\sanam\education_website\ca935theducation\scholarships.html">scholarships</a> <br>
+              <a href="C:\Users\sanam\education_website\ca935theducation\current_events.html">current events</a> <br>
+              <a href="C:\Users\sanam\education_website\ca935theducation\knowledge.html">knowledge</a> <br>
+          </p>
+        </div>
+        <div class="form_elements">
+          <h3> Contact Us:</h3>
+          <p>education.afjrotc@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+    <footer class="ShowOnMobile">
+      <div class="container">
+        <h1 class="name">CA-935th<br>Education</h1>
+        <div class="form_elements">
+          <h3>Navigation</h3>
+          <p> <a href="C:\Users\sanam\education_website\ca935theducation\index copy.html">home page</a> <br>
+              <a href="C:\Users\sanam\education_website\ca935theducation\scholarships.html">scholarships</a> <br>
+              <a href="C:\Users\sanam\education_website\ca935theducation\current_events.html">current events</a> <br>
+              <a href="C:\Users\sanam\education_website\ca935theducation\knowledge.html">knowledge</a> <br>
+          </p>
+        </div>
+        <div class="form_elements">
+          <h3> Contact Us: </h3> 
+          <p> education.afjrotc@gmail.com </p>
+        </div>
+      </div>
+    </footer>
+    </div> <!--closes class "main"-->
 </body>
-
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script>
-  //adapted from w3schools
-  var event = document.getElementsByClassName("event_collapsible");
-  var i;
-  for (i = 0; i < event.length; i++) {
-      event[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.display === "block") {
-          content.style.display = "none";
-      } else {
-          content.style.display = "block";
-      }
-    });
-  }
-</script>
+    const toggleButton = document.getElementById('toggle');
+    const side = document.getElementById('sidebar_mobile');
+    const current = document.getElementsByClassName('current_mobile')
+    let isHidden = true;
 
+    toggleButton.addEventListener('click', function() {
+        if (isHidden) {
+            side.style.display = 'block';
+                for (var i=0;i<current.length;i+=1){
+                current[i].style.display = 'none';
+                }
+        } else {
+            side.style.display = 'none';
+            for (var i=0;i<current.length;i+=1){
+            current[i].style.display = 'block';
+            }
+        }
+        isHidden = !isHidden;
+    });
+
+    function myFunction(x) {
+        x.classList.toggle("change");
+      }
+      function myfunc(){
+      li.classList.toggle("show");
+      }
+</script>
+</html>

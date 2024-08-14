@@ -1,0 +1,146 @@
+
+@font-face {
+  font-family:'cocogoose';
+  src:url('CocogoosePro-trial.ttf');
+}
+
+@font-face {
+  font-family:'louis-george-cafe';
+  src:url('Louis George Cafe.ttf');
+}
+
+@font-face {
+  font-family:'kollera';
+  src:url('Kollera.otf');
+}
+
+/*mobile*/
+@media (max-width: 1033px) {
+  .HideOnMobile {
+      display: none;
+  }
+  .ShowOnMobile {
+      display: initial;
+  }
+  .main{
+    padding-bottom: 63vh;
+  }
+}
+/*non-mobile*/
+@media (min-width: 1033px) {
+  
+  .HideOnMobile {
+      display: initial;
+  }
+  .ShowOnMobile {
+      display: none;
+  }
+  .main{
+    padding-bottom: 25vh;
+  }
+}
+
+html, body {
+  background-color: #FDFBF3;
+  font-family:'louis-george-cafe';
+  color: #011627;
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  position: relative;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top:2.5vh;
+  font-family:'cocogoose';
+  text-align:center;
+}
+
+p, ul, li {
+  margin-left:5vw;
+  margin-right:6vw;
+  text-align:center;
+  font-size:18px;
+  text-wrap:wrap;
+}
+
+footer {
+  background-color: #FDFBF3;
+  border-top-color: #011627;
+  border-top-style: solid;
+  padding: 10px;
+  position: absolute;
+  width: 100%;  
+}
+
+.navbar{
+  border-bottom-style: solid;
+  border-bottom-color: #011627;
+}
+.nav-link, .nav_color {
+  background-color: #FDFBF3;
+  color:#FA7E61;
+  
+}
+
+.header_link {
+  background-color: #FDFBF3;
+  color:#FA7E61;
+  font-family:'kollera';
+  text-align:center;
+  font-size:4vh;
+} 
+
+.header-link:link, .header-link:visited, .nav-link:link, .nav-link:visited {
+  color:#FA7E61;
+ 
+}
+
+.header_link:hover, .nav-link:hover {
+  color: #FFB800;
+}
+
+.main{
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+
+.HideOnMobile .container{
+  display:flex;
+}
+
+.ShowOnMobile .container{
+  display:block;
+}
+
+.name {
+  color:#FA7E61;
+  font-family: 'kollera';
+  font-size: 8vh;
+  text-align:center;
+  margin-left:5vw;
+  margin-right:2vw;
+}
+
+.form_elements {
+  color:#FA7E61;
+  text-align: left;
+}
+
+
+.form_elements a:link, .form_elements a:visited{
+  color:#FA7E61;
+  
+}
+
+.form_elements a:hover{
+  color:#FFB800;
+  
+}
+
+.month a{
+  color:#011627;
+}

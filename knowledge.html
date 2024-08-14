@@ -8,22 +8,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="static/styles.css" />
-    <title>CA-935th's Education Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>CA-935th's Education</title>
     <link rel="shortcut icon" type="image/x-icon" href='static/images/favicon.ico'>
     <style>
         .floaters {
             padding:1vw;
-            float:left;
             position:relative;
         }
 
         .knowledge_section_desktop {
             width:25vw;
             height:12.5vw;
-            background-color:#F0F0F0;
+            background-color:#00C7CE;
             text-align:center;
-            font-size:4.5vh;
+            font-size:4vh;
             display:flex;
             justify-content:center;
             align-items:center;
@@ -36,9 +35,9 @@
             margin-left:10vw;
             margin-right:10vw;
             margin-top:2vh;
-            background-color:#F0F0F0;
+            background-color:#00C7CE;
             text-align:center;
-            font-size:3.5vh;
+            font-size:3vh;
             display: flex;
             justify-content:center;
             align-items:center;
@@ -49,148 +48,193 @@
             margin-left:10vw;
         }
 
-        a:link, a:visited {
-            color:#011627;
+        .folder_link:link, .folder_link:visited{
+            color:#FDFBF3;
             text-decoration:none;
         }
 
-        a:hover {
-            color:#FFFFFF;
+        .folder_link:hover {
+            color:#FDFBF3;
         }
 
         .knowledge_section_desktop:hover, .knowledge_section_mobile:hover {
             border-style: solid;
-            background-color:#FF322B;
+            background-color:#FFB800;
+        }
+
+        .knowledge_link:link, .knowledge_link:visited{
+            color:#FA7E61;
+            text-decoration:none;
         }
 
         .knowledge_link:hover {
-            color:#FF322B;
+            color:#FFB800;
+            text-decoration:none;
         }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg nav_color">
-      <img src="static\images\srhs_edu_owl-cropped.png" alt="website logo" class="HideOnMobile">
-      <a class="navbar-brand header_link nav-link" href="index.html">CA-935th Education</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#6BCEFF">
-        <img src="static\images\srhs_edu_owl-cropped.png" alt="click me!">
+      <img src="static\images\new_owl_diff_eyes(resized).png" alt="website logo" class="HideOnMobile">
+      <a class="navbar-brand header_link" href="index.html">CA-935th Education</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#FDFBF3">
+        <img src="static\images\new_owl_diff_eyes(resized).png" alt="click me!">
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="scholarships.html">Scholarships<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="current_events.html">Current Events</a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link" href="knowledge.html">Knowledge</a>
           </li>
         </ul>
       </div>
     </nav>
-    <h1> Next Monday's Knowledge: <a class='knowledge_link' href="https://quizlet.com/user/plutonicbowie/folders/this-weeks-knowledge">All previous knowledge</a> </h1>
+
+    <div class="main">
+    <!--<h1> Next Monday's Knowledge: <a class='knowledge_link' href="https://quizlet.com/plutonicbowie/folders/this-weeks-knowledge">National Chain of Command</a> </h1>-->
     <div class="HideOnMobile">
         <!-- row 1-->
         <div class='row'>
-            <a href="https://quizlet.com/mia__canales/folders/general-information">
                 <div class='floaters'>
-                    <div class='knowledge_section_desktop'> 
-                        General Information
-                    </div> 
+                    <a class="folder_link" href="https://quizlet.com/mia__canales/folders/general-military-knowledge">
+                        <div class='knowledge_section_desktop'> 
+                            General Information
+                        </div> 
+                    </a>    
                 </div> 
-            </a>
 
-            <a href="https://quizlet.com/mia__canales/folders/general-military-knowledge">
                 <div class='floaters'>
-                    <div class='knowledge_section_desktop'> 
-                        General Military Knowledge
-                    </div> 
+                    <a class="folder_link" href="https://quizlet.com/mia__canales/folders/general-military-knowledge">
+                        <div class='knowledge_section_desktop'> 
+                            General Military Knowledge
+                        </div> 
+                    </a>
                 </div> 
-            </a>
-
-            <a href="https://quizlet.com/mia__canales/folders/curriculum-and-grading">
+           
                 <div class='floaters'>
-                    <div class='knowledge_section_desktop'> 
-                        Curriculum and Grading 
-                    </div> 
+                    <a class="folder_link" href="https://quizlet.com/mia__canales/folders/curriculum-and-grading">
+                        <div class='knowledge_section_desktop'> 
+                            Curriculum and Grading 
+                        </div> 
+                    </a>
                 </div> 
-            </a>
         </div>
         <!--row 2-->
-
         <div class='row'>
-            <a href="https://quizlet.com/mia__canales/folders/organizational-structure-and-chain-of-command-2023-24">
                 <div class='floaters'>
-                    <div class='knowledge_section_desktop'> 
-                        Organization Structure and Chain of Command
-                    </div> 
+                    <a class="folder_link" href="https://quizlet.com/mia__canales/folders/organizational-structure-and-chain-of-command-2023-24">
+                        <div class='knowledge_section_desktop'> 
+                            Organization Structure and Chain of Command
+                        </div> 
+                    </a>
                 </div>
-            </a>
-            <a href="https://quizlet.com/plutonicbowie/folders/classroom-and-cadet-corps-procedures-and-activities">
+            
                 <div class='floaters'>
-                    <div class='knowledge_section_desktop'> 
-                        Classroom and Cadet Corps Procedures and Activites 
-                    </div> 
+                    <a class="folder_link" href="https://quizlet.com/plutonicbowie/folders/classroom-and-cadet-corps-procedures-and-activities">
+                        <div class='knowledge_section_desktop'> 
+                            Classroom and Cadet Corps Procedures and Activites 
+                        </div> 
+                    </a>
                 </div> 
-            </a>
 
-            <a href="https://quizlet.com/plutonicbowie/folders/dress-and-appearance">
                 <div class='floaters'>
-                    <div class='knowledge_section_desktop'> 
-                        Dress and Appearence
-                    </div> 
+                    <a class="folder_link" href="https://quizlet.com/plutonicbowie/folders/dress-and-appearance">
+                        <div class='knowledge_section_desktop'> 
+                            Dress and Appearence
+                        </div> 
+                    </a>
                 </div> 
-            </a>
         </div>
         <!--only one element in row so it is centered in the middle-->
-        <a href="https://quizlet.com/plutonicbowie/folders/awards-and-decorations">
-            <div class='floaters' style='position:fixed; margin-left: 37vw; z-index:0;'>
-                <div class='knowledge_section_desktop'> 
-                    Awards and Decoration 
-                </div>  
+       
+            <div class='floaters' style='margin-left: 37vw;'>
+                <a class="folder_link" href="https://quizlet.com/plutonicbowie/folders/awards-and-decorations">
+                    <div class='knowledge_section_desktop'> 
+                        Awards and Decoration 
+                    </div> 
+                </a> 
             </div> 
-        </a>
     </div>
     <div class="ShowOnMobile">
-        <a href="https://quizlet.com/mia__canales/folders/general-information">
+        <a class="folder_link" href="https://quizlet.com/mia__canales/folders/general-information">
             <div class='knowledge_section_mobile'> 
                 General Information
             </div> 
         </a>
-        <a href="https://quizlet.com/mia__canales/folders/general-military-knowledge">
+        <a class="folder_link" href="https://quizlet.com/mia__canales/folders/general-military-knowledge">
             <div class='knowledge_section_mobile'> 
                 General Military Knowledge
             </div>
         </a>
-        <a href="https://quizlet.com/mia__canales/folders/curriculum-and-grading">
+        <a class="folder_link" href="https://quizlet.com/mia__canales/folders/curriculum-and-grading">
             <div class='knowledge_section_mobile'> 
                 Curriculum and Grading 
             </div> 
         </a>
-        <a href="https://quizlet.com/mia__canales/folders/organizational-structure-and-chain-of-command-2023-24">
+        <a class="folder_link" href="https://quizlet.com/mia__canales/folders/organizational-structure-and-chain-of-command-2023-24">
             <div class='knowledge_section_mobile'> 
                 Organization Structure and Chain of Command
             </div> 
         </a>
-        <a href="https://quizlet.com/plutonicbowie/folders/classroom-and-cadet-corps-procedures-and-activities">
+        <a class="folder_link" href="https://quizlet.com/plutonicbowie/folders/classroom-and-cadet-corps-procedures-and-activities">
             <div class='knowledge_section_mobile'> 
                 Classroom and Cadet Corps Procedures and Activites 
             </div> 
         </a>
-        <a href="https://quizlet.com/plutonicbowie/folders/dress-and-appearance">
+        <a class="folder_link" href="https://quizlet.com/plutonicbowie/folders/dress-and-appearance">
             <div class='knowledge_section_mobile'> 
                 Dress and Appearence
             </div> 
         </a>
-        <a href="https://quizlet.com/plutonicbowie/folders/awards-and-decorations">
+        <a class="folder_link" href="https://quizlet.com/plutonicbowie/folders/awards-and-decorations">
             <div class='knowledge_section_mobile'> 
                 Awards and Decoration 
             </div>
         </a>
     </div>
+    <footer class="HideOnMobile">
+        <div class="container">
+          <h1 class="name">CA-935th<br>Education</h1>
+          <div class="form_elements">
+            <h3>Navigation</h3>
+            <p> <a href="C:\Users\sanam\education_website\ca935theducation\index copy.html">home page</a> <br>
+                <a href="C:\Users\sanam\education_website\ca935theducation\scholarships.html">scholarships</a> <br>
+                <!--<a href="C:\Users\sanam\education_website\ca935theducation\current_events.html">current events</a> <br>-->
+                <a href="C:\Users\sanam\education_website\ca935theducation\knowledge.html">knowledge</a> <br>
+            </p>
+          </div>
+          <div class="form_elements">
+            <h3> Contact Us:</h3>
+            <p>education.afjrotc@gmail.com</p>
+          </div>
+        </div>
+      </footer>
+    <footer class="ShowOnMobile">
+    <div class="container">
+        <h1 class="name">CA-935th<br>Education</h1>
+        <div class="form_elements">
+        <h3>Navigation</h3>
+        <p> <a href="C:\Users\sanam\education_website\ca935theducation\index copy.html">home page</a> <br>
+            <a href="C:\Users\sanam\education_website\ca935theducation\scholarships.html">scholarships</a> <br>
+            <!--<a href="C:\Users\sanam\education_website\ca935theducation\current_events.html">current events</a> <br>-->
+            <a href="C:\Users\sanam\education_website\ca935theducation\knowledge.html">knowledge</a> <br>
+        </p>
+        </div>
+        <div class="form_elements">
+        <h3> Contact Us: </h3> 
+        <p> education.afjrotc@gmail.com </p>
+        </div>
+    </div>
+    </footer>
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html
