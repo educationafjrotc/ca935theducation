@@ -9,6 +9,11 @@
   src:url('Louis George Cafe.ttf');
 }
 
+@font-face{
+  font-family:'louis-george-cafe-bold';
+  src:url('Louis George Cafe Bold.ttf')
+}
+
 @font-face {
   font-family:'kollera';
   src:url('Kollera.otf');
@@ -71,6 +76,12 @@ footer {
   padding: 10px;
   position: absolute;
   width: 100%;  
+}
+
+strong{
+  font-family: 'louis-george-cafe-bold';
+  font-weight: normal;
+  font-style: normal;
 }
 
 .navbar{

@@ -8,6 +8,10 @@ footer{
     left:0;
 }
 
+/*ul,li{
+    margin-left: 10vw;
+}*/
+
 #toggle{
     width:5vw;
     height:100%;
@@ -86,15 +90,15 @@ footer{
     width:70vw;
 }
 
-#financial_aid{
-    margin-left:25vw;
-    text-align:center;
+.HideOnMobile #financial_aid , .HideOnMobile #brigade{
+    margin-left:35vw;
+    text-align: left;
+   
 }
 
-#calender {
-    position: relative;
-    padding-bottom: 1vh; 
-    padding-top: 1vh;
-    width:70vw;
-    margin-left:25vw;
-}
+#monthlyD ul, #monthlyD li, #monthlyM ul, #monthlyM li, .ShowOnMobile #financial_aid, .ShowOnMobile #brigade{
+    text-align: left;
+    list-style-position: none;
+    margin-left:0vw;
+  }
+

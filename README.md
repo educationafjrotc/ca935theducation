@@ -25,15 +25,17 @@ GENERAL POINTERS
 
 HOW TO UPDATE THE WEBSITE
     SCHOLARSHIPS.HTML & CURRENT_EVENTS.HTML
-        1. To add a scholarship/current event to the website, first find the button with the month the scholarship is DUE in, not the one it is posted in.  
+        1. To add a scholarship/current event to the website, first navigate to the month_updater.js / current_event_updater.js file. 
+        
+        2.Then, copy paste scholarship description from the announcement into the function in which that scholarship is due (ex. a scholarship due Sept. 30th should be pasted in to function september(){}). 
+        
+        3.Format the text by adding <li> and <ul> tags around anything with bulletpoints, <a> around any links, and <strong> around anything bold.
 
-        2. Directly under that button is a div or "division" with <ul> and <li> tags. The <ul> tells HTML that an unordered list is being made and the <li> tells HTML to make a bullet point. Add an <li> </li> and paste the scholarship/current event between the tags. 
+        4. If in doubt follow the format of previously added scholarships. Make sure to add the correct classes/ids!
 
-        3. Make sure you add <a> around any links. 
+        5.  Before commiting, add the days the scholarships you added to the website were posted on the discord. So for example if you posted a scholarship on 2/15/24 and later added it to the website, say that you added a scholarship from 2/15/24 in the message before commiting the code. 
 
-        4.  Before commiting, add the days the scholarships you added to the website were posted on the discord. So for example if you posted a scholarship on 2/15/24 and later added it to the website, say that you added a scholarship from 2/15/24 in the message before commiting the code. 
-
-        5. Commit and Push! The website will take about a minute to show the changes you just made. 
+        6. Commit and Push! The website will take about a minute to show the changes you just made. 
 
     KNOWLEDGE.HTML
         1. Find the <h1> tag that says "Next Monday's Knowledge: "
