@@ -40,6 +40,8 @@ function august(){
             <h6>Brigade Scholarships:</h6> 
             <ul>
                 <li id="brigade"><a href="https://docs.google.com/document/d/1jcgc27kRqbGZETYEkwKMVnytzp3LO_vCHjaeL-UaKdo/edit">Brigade Scholarships Issue #2</a></li>
+                <li id="brigade"><a href=" https://docs.google.com/document/d/1QYwHyMgjxoNEh8RCz_XOOrrC33xXJVr6MrdS6XLZtPw/edit">Brigade Scholarships Issue #3</a><li>
+
             </ul>
             <h6>Unit Scholarships:</h6>
             <ul id="financial_aid">
@@ -167,7 +169,17 @@ function october(){
                         <li> write an <strong>essay</strong> about innovative and sustainable construction </li>
                     </ul>
                 </li>
-            </ul>`
+            </ul>
+            <ul id ="financial_aid">
+                <li class="scholarship">
+                    <a href="https://www.moneymetals.com/scholarship">https://www.moneymetals.com/scholarship</a>
+                    <li> <strong>October 31st</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Up to $2500</strong> </li>
+                    <li> <strong>Answer one of 4 questions</strong> about the <strong>US’s monetary system and currency in 1000 words</strong> or less </li>
+                </li>
+            </ul>
+            `
     );
 } 
 
@@ -181,10 +193,16 @@ function november(){
         var main = document.getElementById("monthlyM");
         console.log("mobile");
     }
-    console.log("september called");
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
             <h2>November Scholarships</h2>
+            <ul id="financial_aid">
+                <li class="scholarship">
+                    <a href="https://www.societyforscience.org/regeneron-sts/application-requirements/">https://www.societyforscience.org/regeneron-sts/application-requirements/</a>
+                    <li> <strong>November 7th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Up to $250,000</strong> </li>
+                    <li> <strong>Conduct an individual research project</strong>(no longer than 20 pages), get <strong>2-4 letters of recommendation</strong>, and answer some <strong>essay questions</strong>.</li>
             <ul id="financial_aid">
                 <li class="scholarship">
                     <a href="https://odenzascholarships.com/awards/8/eligibility_odenza_marketing_group_scholarship.php">https://odenzascholarships.com/awards/8/eligibility_odenza_marketing_group_scholarship.php</a> 
@@ -237,7 +255,17 @@ function december(){
                     <li> create a form of <strong>social awareness</strong> that inspires other students to focus <strong>on looking twice for motorcycle safety</strong>(video, essay, artwork, etc.) </li>
                 </ul>
             </li>
-        </ul>`
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://accessscholarships.com/around-the-corner-from-college-scholarship/">https://accessscholarships.com/around-the-corner-from-college-scholarship/</a>
+                <li> <strong>December 31</strong> </li>
+                <li> <strong>all high school students</strong> </li>
+                <li> <strong>$1,000</strong> </li>
+                <li>Create a <strong>personalized checklist</strong> that you can use (max 10 items) <strong>to help you best prepare for college</strong> </li>
+            </li>
+        </ul>
+    `
     );
 } 
 
@@ -278,10 +306,19 @@ function may(){
         var main = document.getElementById("monthlyM");
         console.log("mobile");
     }
-    console.log("september called");
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`
         <h3>May Scholarships</h3>
+            <ul id="financial_aid">
+                <li class="scholarship">
+                <a href="https://www.projectparadigm.org/#mid=&offset=&page=&s=">https://www.projectparadigm.org/#mid=&offset=&page=&s=</a>
+                <ul>
+                    <li> <strong>May 01</strong> </li>
+                    <li> <strong>All high school</strong> </li>
+                    <li> <strong>$100,000</strong> </li>
+                    <li> <strong>Create a way to help solve real-life problems</strong> in homes, schools, communities, and/or around the world and <strong>submit a brief statement about your idea</strong> (140 -characters or less) . (Entries may come in the form of posters, videos, inventions, messages, community events, websites, pr mobile apps)</li>
+                </li>
+            </ul>
             <ul id="financial_aid">
                 <li class="scholarship">
                     <a href="https://constitutingamerica.org/contest-categories/">https://constitutingamerica.org/contest-categories/</a> 
