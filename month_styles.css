@@ -8,10 +8,6 @@ footer{
     left:0;
 }
 
-/*ul,li{
-    margin-left: 10vw;
-}*/
-
 #toggle{
     width:5vw;
     height:100%;
@@ -56,11 +52,11 @@ footer{
     height: 50vh;
 }
 
-.current_desktop h2, .current_mobile h2{
+#current_desktop h2, #current_mobile h2{
     text-align:center;
 }
 
-.sidebar_desktop{
+#sidebar_desktop{
     width:25vw;
     float:left;
 }

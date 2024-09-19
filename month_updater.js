@@ -170,6 +170,15 @@ function october(){
                     </ul>
                 </li>
             </ul>
+            <ul id="financial_aid">
+                <li class="scholarship">
+                    <a href="https://www.couponbirds.com/scholarship">https://www.couponbirds.com/scholarship</a>
+                    <li> <strong>October 10</strong> </li>
+                    <li> <strong>At least 15 years old</strong> </li>
+                    <li> <strong>Up to $1,000</strong> </li>
+                    <li>You must provide legitimate acceptance letter from your high school and submit a <strong>2-3 minute video</strong> on the topic provided by the sponsor</li>
+                </li>
+            </ul>
             <ul id ="financial_aid">
                 <li class="scholarship">
                     <a href="https://www.moneymetals.com/scholarship">https://www.moneymetals.com/scholarship</a>
@@ -268,6 +277,59 @@ function december(){
     `
     );
 } 
+
+function january(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("monthlyD");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("monthlyM");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2>January Scholarships</h2>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://jfkessaycontest.smapply.io/prog/john_f_kennedy_profile_in_courage_essay_contest/">https://jfkessaycontest.smapply.io/prog/john_f_kennedy_profile_in_courage_essay_contest/</a>
+                <li> <strong>January 17th</strong> </li>
+                <li> <strong>all high school students</strong> </li>
+                <li> <strong>Up to $10,000</strong> </li>
+                <li> Submit a <strong>700-1,000 word essay</strong> that <strong>describes and analyzes an act of political courage by a U.S. elected official who served during or after 1917</strong> </li>
+            </li>
+        </ul>
+
+    `
+    );
+}
+
+function february(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("monthlyD");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("monthlyM");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2>February Scholarships</h2>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.nationalhsf.org/application">https://www.nationalhsf.org/application</a>
+                <li> <strong>February 18th</strong> </li>
+                <li> <strong>at least 15</strong> </li>
+                <li> <strong>up to $2500</strong> </li>
+                <li> Submit your <strong>high school transcript</strong> and answer <strong>7 essay questions</strong> (600-2000 <strong>characters</strong>)</li>
+            </li>
+        </ul>
+    `
+    );
+}
 
 function march(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
