@@ -37,24 +37,23 @@ function august(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`
         <h2>August Scholarships</h2>
-            <h6>Brigade Scholarships:</h6> 
-            <ul>
-                <li id="brigade"><a href="https://docs.google.com/document/d/1jcgc27kRqbGZETYEkwKMVnytzp3LO_vCHjaeL-UaKdo/edit">Brigade Scholarships Issue #2</a></li>
-                <li id="brigade"><a href=" https://docs.google.com/document/d/1QYwHyMgjxoNEh8RCz_XOOrrC33xXJVr6MrdS6XLZtPw/edit">Brigade Scholarships Issue #3</a><li>
-
-            </ul>
-            <h6>Unit Scholarships:</h6>
-            <ul id="financial_aid">
-                <li class="scholarship">
-                    <a href="https://www.bbb.org/local/1126/student-scholarships/torch-essay">https://www.bbb.org/local/1126/student-scholarships/torch-essay</a> 
-                    <ul>
-                        <li> <strong>August 18th</strong> </li>
-                        <li> <strong>all grades</strong> </li>
-                        <li> <strong> $1500</strong> </li>
-                        <li> <strong>500 word essay</strong> (an ethical issue you faced and how it was handled)</li>
-                    </ul>
-                </li>
-            </ul>` ); 
+        <h6>Brigade Scholarships:</h6> 
+        <ul>
+            <li id="brigade"><a href="https://docs.google.com/document/d/1jcgc27kRqbGZETYEkwKMVnytzp3LO_vCHjaeL-UaKdo/edit">Brigade Scholarships Issue #2</a></li>
+            <li id="brigade"><a href=" https://docs.google.com/document/d/1QYwHyMgjxoNEh8RCz_XOOrrC33xXJVr6MrdS6XLZtPw/edit">Brigade Scholarships Issue #3</a><li>
+        </ul>
+        <h6>Unit Scholarships:</h6>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.bbb.org/local/1126/student-scholarships/torch-essay">https://www.bbb.org/local/1126/student-scholarships/torch-essay</a> 
+                <ul>
+                    <li> <strong>August 18th</strong> </li>
+                    <li> <strong>all grades</strong> </li>
+                    <li> <strong> $1500</strong> </li>
+                    <li> <strong>500 word essay</strong> (an ethical issue you faced and how it was handled)</li>
+                </ul>
+            </li>
+        </ul>` ); 
 }
 
 function september(){
@@ -70,6 +69,11 @@ function september(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>September Scholarships</h2>
+        <h6>Brigade Scholarships:</h6>
+        <ul>
+            <li id="brigade"><a href="https://docs.google.com/document/d/191-JB1OnZPWOtUuSl8cC5SYySoJgIJ3_gESf5Mg3L0E/edit?usp=sharing">Brigade Scholarships Issue #4</a></li>
+        </ul>
+        <h6>Unit Scholarships:</h6>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://apply.mykaleidoscope.com/scholarships/PizzaHutScholarship24">https://apply.mykaleidoscope.com/scholarships/PizzaHutScholarship24</a> 
@@ -274,6 +278,17 @@ function december(){
                 <li>Create a <strong>personalized checklist</strong> that you can use (max 10 items) <strong>to help you best prepare for college</strong> </li>
             </li>
         </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://cck-law.com/undergraduate-scholarship/">https://cck-law.com/undergraduate-scholarship/</a>
+                <li> <strong>December 31st<strong> </li>
+                <li> <strong>Seniors</strong> </li>
+                <li> <strong>3.00 GPA</strong> </li>
+                <li> <strong>Child of a Veteran</strong> who served in any military branch</strong>
+                <li> <strong>$1500</strong> </li>
+                <li> <strong>500 word essay</strong> about growing up in a military family or what can be done to help military families.</li>
+            </li>
+        </ul>
     `
     );
 } 
@@ -300,6 +315,15 @@ function january(){
                 <li> Submit a <strong>700-1,000 word essay</strong> that <strong>describes and analyzes an act of political courage by a U.S. elected official who served during or after 1917</strong> </li>
             </li>
         </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.exploravision.org/">https://www.exploravision.org/</a>
+                <li> <strong>January 31</strong> </li>
+                <li> <strong>All high school students</strong> </li>
+                <li> <strong>$10,000</strong> </li>
+                <li>You must work in a group of </strong>two to four students</strong>. Each team must <strong>select a technology or an aspect of a technology</strong>, which is present in the home, school, or community. The students must then <strong>project into the future</strong> what that technology could be like 10 or more years in the future and <strong>determine what scientific breakthroughs need to occur to make it a reality</strong> </li>
+            </li>
+        </ul>
 
     `
     );
@@ -318,6 +342,15 @@ function february(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`
         <h2>February Scholarships</h2>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.sar.org/george-s-stella-m-knight-essay-contest/">https://www.sar.org/george-s-stella-m-knight-essay-contest/</a>
+                <li> <strong>February 15th</strong> </li>
+                <li> <strong>All grades</strong> </li>
+                <li> <strong>up to $6000</strong> </li>
+                <li> <strong>800-1200 word essay</strong> on an event, person, philosophy or ideal associated with the American Revolution, Declaration of Independence, or the framing of the United States Constitution</li>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://www.nationalhsf.org/application">https://www.nationalhsf.org/application</a>
