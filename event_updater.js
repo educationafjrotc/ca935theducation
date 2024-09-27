@@ -1,4 +1,5 @@
 //updates information on scholarship page based on button input
+//current through 9/25
 
 function august(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -51,7 +52,11 @@ function september(){
             <li>
                 Hawaii's Kilauea volcano, one of the most active in the world, is erupting again. Prompting a volcano watch alert in surrounding areas.
                 <a href="https://abcnews.go.com/US/kilauea-volcano-erupting-remote-area-hawaii-volcanoes-national/story?id=113806533">ttps://abcnews.go.com/US/kilauea-volcano-erupting-remote-area-hawaii-volcanoes-national/story?id=113806533</a>
-            </li>        
+            </li>
+            <li>
+                Marcellus William was executed for allegedly breaking into a women's home and stabbing her 43 times. However there was evidence of his 
+                innocence and the victim's family did not want him to face the death penalty.   
+                <a href="https://www.cbsnews.com/news/marcellus-williams-execution-supreme-court-stay-denied/">https://www.cbsnews.com/news/marcellus-williams-execution-supreme-court-stay-denied/</a>     
         </ul>`
     );
 } 

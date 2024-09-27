@@ -1,4 +1,5 @@
 //updates information on scholarship page based on button input
+//current through 9/18
 
 function july(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -35,7 +36,7 @@ function august(){
     }
     console.log(main);
     main.innerHTML="";
-    main.insertAdjacentHTML("afterbegin",`
+    main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>August Scholarships</h2>
         <h6>Brigade Scholarships:</h6> 
         <ul>
@@ -160,11 +161,11 @@ function october(){
         console.log("mobile");
     }
     main.innerHTML="";
-    main.insertAdjacentHTML("afterbegin",`
-            <h2>October Scholarships</h2>
-            <ul id="financial_aid">
-                <li class="scholarship">
-                    <a href="https://asti.com/aecscholarship/">https://asti.com/aecscholarship/</a> 
+    main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
+        <h2>October Scholarships</h2>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://asti.com/aecscholarship/">https://asti.com/aecscholarship/</a> 
                     <ul>
                         <li> <strong>October 1st</strong> </li>
                         <li> <strong>Seniors</strong> </li>
@@ -172,27 +173,54 @@ function october(){
                         <li> up to <strong>$1,500</strong> </li>
                         <li> write an <strong>essay</strong> about innovative and sustainable construction </li>
                     </ul>
-                </li>
-            </ul>
-            <ul id="financial_aid">
-                <li class="scholarship">
-                    <a href="https://www.couponbirds.com/scholarship">https://www.couponbirds.com/scholarship</a>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.couponbirds.com/scholarship">https://www.couponbirds.com/scholarship</a>
+                <ul>
                     <li> <strong>October 10</strong> </li>
                     <li> <strong>At least 15 years old</strong> </li>
                     <li> <strong>Up to $1,000</strong> </li>
                     <li>You must provide legitimate acceptance letter from your high school and submit a <strong>2-3 minute video</strong> on the topic provided by the sponsor</li>
-                </li>
-            </ul>
-            <ul id ="financial_aid">
-                <li class="scholarship">
-                    <a href="https://www.moneymetals.com/scholarship">https://www.moneymetals.com/scholarship</a>
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.jumpstart-scholarship.net/application-us/">https://www.jumpstart-scholarship.net/application-us/</a>
+                <ul>
+                    <li <strong>October 17th</strong> </li>
+                    <li> <strong>Sophomores - Seniors</strong> </li>
+                    <li> <strong>Up to $1,000</strong> </li>
+                    <li> Submit a <strong>personal statement (250 words max)</strong> answering <strong>one of three questions</strong> about your goals or a time when hard work paid off.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id ="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.moneymetals.com/scholarship">https://www.moneymetals.com/scholarship</a>
+                <ul>
                     <li> <strong>October 31st</strong> </li>
                     <li> <strong>Seniors</strong> </li>
                     <li> <strong>Up to $2500</strong> </li>
                     <li> <strong>Answer one of 4 questions</strong> about the <strong>US’s monetary system and currency in 1000 words</strong> or less </li>
-                </li>
-            </ul>
-            `
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class="scholarship">
+                <a href="https://www.vfw.org/VOD/">https://www.vfw.org/VOD/</a>
+                <a href="bit.ly/4fNilvt">bit.ly/4fNilvt</a>
+                <ul>
+                    <li> <strong>October 31st</strong> </li>
+                    <li> <strong>all high schoolers</strong> </li>
+                    <li> <strong>up to $35,000</strong> </li>
+                    <li> <strong>Record a 3-5 minute audio essay</strong> responding to the prompt "Is America Today Our Forefathers' Vision?"</li>
+                </ul>
+            </li>
+        </ul>
+        `
     );
 } 
 
@@ -208,36 +236,52 @@ function november(){
     }
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
-            <h2>November Scholarships</h2>
-            <ul id="financial_aid">
-                <li class="scholarship">
-                    <a href="https://www.societyforscience.org/regeneron-sts/application-requirements/">https://www.societyforscience.org/regeneron-sts/application-requirements/</a>
+        <h2>November Scholarships</h2>
+        <ul id="financial_aid">
+            <li class="schoalarship">
+                <a href="https://sousafoundation.net/sub_menu_items/12">https://sousafoundation.net/sub_menu_items/12</a>
+                <ul>
+                    <li> <strong>November 6</strong> </li>
+                    <li> <strong>$1,000</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Type a statement of 350 words or less</strong> and including your <strong>goals, philosophy, and who/what influenced you</strong> </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.societyforscience.org/regeneron-sts/application-requirements/">https://www.societyforscience.org/regeneron-sts/application-requirements/</a>
+                <ul>
                     <li> <strong>November 7th</strong> </li>
                     <li> <strong>Seniors</strong> </li>
                     <li> <strong>Up to $250,000</strong> </li>
                     <li> <strong>Conduct an individual research project</strong>(no longer than 20 pages), get <strong>2-4 letters of recommendation</strong>, and answer some <strong>essay questions</strong>.</li>
-            <ul id="financial_aid">
-                <li class="scholarship">
-                    <a href="https://odenzascholarships.com/awards/8/eligibility_odenza_marketing_group_scholarship.php">https://odenzascholarships.com/awards/8/eligibility_odenza_marketing_group_scholarship.php</a> 
-                    <ul>
-                        <li> <strong>November 15th</strong> </li>
-                        <li> at least <strong>16</strong> </li>
-                        <li> <strong>2.5 GPA</strong> </li>
-                        <li> <strong>$500</strong> </li>
-                        <li> write <strong>two 500 word essays</strong> (one about “a city… that you believe would.. benefit your career” and why you should get the scholarship.) </li>
-                    </ul>    
-                </li>
-
-                <li class="scholarship">
-                    <a href="https://www.servicescape.com/scholarship">https://www.servicescape.com/scholarship</a> 
-                    <ul>
-                        <li> <strong>November 29th</strong> </li>
-                        <li> <strong>Seniors</strong> </li>
-                        <li> <strong>$1,000</strong> </li>
-                        <li> submit a <strong>300 word essay</strong> (how does writing impact today’s world?) </li>
-                    </ul>
-                </li>
-            </ul>`
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://odenzascholarships.com/awards/8/eligibility_odenza_marketing_group_scholarship.php">https://odenzascholarships.com/awards/8/eligibility_odenza_marketing_group_scholarship.php</a> 
+                <ul>
+                    <li> <strong>November 15th</strong> </li>
+                    <li> at least <strong>16</strong> </li>
+                    <li> <strong>2.5 GPA</strong> </li>
+                    <li> <strong>$500</strong> </li>
+                    <li> write <strong>two 500 word essays</strong> (one about “a city… that you believe would.. benefit your career” and why you should get the scholarship.) </li>
+                </ul>    
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.servicescape.com/scholarship">https://www.servicescape.com/scholarship</a> 
+                <ul>
+                    <li> <strong>November 29th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>$1,000</strong> </li>
+                    <li> submit a <strong>300 word essay</strong> (how does writing impact today’s world?) </li>
+                </ul>
+            </li>
+        </ul>`
     );
     let scholarships = document.getElementsByClassName('scholarship');
     for (let i = 0; i < scholarships.length; i++) {
@@ -256,7 +300,7 @@ function december(){
         console.log("mobile");
     }
     main.innerHTML="";
-    main.insertAdjacentHTML("afterbegin",`
+    main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>December Scholarships</h2>
         <ul id="financial_aid">
             <li class="scholarship">
@@ -272,21 +316,25 @@ function december(){
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://accessscholarships.com/around-the-corner-from-college-scholarship/">https://accessscholarships.com/around-the-corner-from-college-scholarship/</a>
-                <li> <strong>December 31</strong> </li>
-                <li> <strong>all high school students</strong> </li>
-                <li> <strong>$1,000</strong> </li>
-                <li>Create a <strong>personalized checklist</strong> that you can use (max 10 items) <strong>to help you best prepare for college</strong> </li>
+                <ul>
+                    <li> <strong>December 31</strong> </li>
+                    <li> <strong>all high school students</strong> </li>
+                    <li> <strong>$1,000</strong> </li>
+                    <li>Create a <strong>personalized checklist</strong> that you can use (max 10 items) <strong>to help you best prepare for college</strong> </li>
+                </ul>
             </li>
         </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://cck-law.com/undergraduate-scholarship/">https://cck-law.com/undergraduate-scholarship/</a>
-                <li> <strong>December 31st<strong> </li>
-                <li> <strong>Seniors</strong> </li>
-                <li> <strong>3.00 GPA</strong> </li>
-                <li> <strong>Child of a Veteran</strong> who served in any military branch</strong>
-                <li> <strong>$1500</strong> </li>
-                <li> <strong>500 word essay</strong> about growing up in a military family or what can be done to help military families.</li>
+                <ul>
+                    <li> <strong>December 31st<strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>3.00 GPA</strong> </li>
+                    <li> <strong>Child of a Veteran</strong> who served in any military branch</strong>
+                    <li> <strong>$1500</strong> </li>
+                    <li> <strong>500 word essay</strong> about growing up in a military family or what can be done to help military families.</li>
+                </ul>    
             </li>
         </ul>
     `
@@ -304,27 +352,30 @@ function january(){
         console.log("mobile");
     }
     main.innerHTML="";
-    main.insertAdjacentHTML("afterbegin",`
+    main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>January Scholarships</h2>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://jfkessaycontest.smapply.io/prog/john_f_kennedy_profile_in_courage_essay_contest/">https://jfkessaycontest.smapply.io/prog/john_f_kennedy_profile_in_courage_essay_contest/</a>
-                <li> <strong>January 17th</strong> </li>
-                <li> <strong>all high school students</strong> </li>
-                <li> <strong>Up to $10,000</strong> </li>
-                <li> Submit a <strong>700-1,000 word essay</strong> that <strong>describes and analyzes an act of political courage by a U.S. elected official who served during or after 1917</strong> </li>
+                <ul>
+                    <li> <strong>January 17th</strong> </li>
+                    <li> <strong>all high school students</strong> </li>
+                    <li> <strong>Up to $10,000</strong> </li>
+                    <li> Submit a <strong>700-1,000 word essay</strong> that <strong>describes and analyzes an act of political courage by a U.S. elected official who served during or after 1917</strong> </li>
+                </ul>
             </li>
         </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://www.exploravision.org/">https://www.exploravision.org/</a>
-                <li> <strong>January 31</strong> </li>
-                <li> <strong>All high school students</strong> </li>
-                <li> <strong>$10,000</strong> </li>
-                <li>You must work in a group of </strong>two to four students</strong>. Each team must <strong>select a technology or an aspect of a technology</strong>, which is present in the home, school, or community. The students must then <strong>project into the future</strong> what that technology could be like 10 or more years in the future and <strong>determine what scientific breakthroughs need to occur to make it a reality</strong> </li>
+                <ul>
+                    <li> <strong>January 31</strong> </li>
+                    <li> <strong>All high school students</strong> </li>
+                    <li> <strong>$10,000</strong> </li>
+                    <li>You must work in a group of </strong>two to four students</strong>. Each team must <strong>select a technology or an aspect of a technology</strong>, which is present in the home, school, or community. The students must then <strong>project into the future</strong> what that technology could be like 10 or more years in the future and <strong>determine what scientific breakthroughs need to occur to make it a reality</strong> </li>
+                </ul>    
             </li>
         </ul>
-
     `
     );
 }
@@ -340,24 +391,28 @@ function february(){
         console.log("mobile");
     }
     main.innerHTML="";
-    main.insertAdjacentHTML("afterbegin",`
+    main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>February Scholarships</h2>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://www.sar.org/george-s-stella-m-knight-essay-contest/">https://www.sar.org/george-s-stella-m-knight-essay-contest/</a>
-                <li> <strong>February 15th</strong> </li>
-                <li> <strong>All grades</strong> </li>
-                <li> <strong>up to $6000</strong> </li>
-                <li> <strong>800-1200 word essay</strong> on an event, person, philosophy or ideal associated with the American Revolution, Declaration of Independence, or the framing of the United States Constitution</li>
+                <ul>
+                    <li> <strong>February 15th</strong> </li>
+                    <li> <strong>All grades</strong> </li>
+                    <li> <strong>up to $6000</strong> </li>
+                    <li> <strong>800-1200 word essay</strong> on an event, person, philosophy or ideal associated with the American Revolution, Declaration of Independence, or the framing of the United States Constitution</li>
+                </ul>    
             </li>
         </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://www.nationalhsf.org/application">https://www.nationalhsf.org/application</a>
-                <li> <strong>February 18th</strong> </li>
-                <li> <strong>at least 15</strong> </li>
-                <li> <strong>up to $2500</strong> </li>
-                <li> Submit your <strong>high school transcript</strong> and answer <strong>7 essay questions</strong> (600-2000 <strong>characters</strong>)</li>
+                <ul>
+                    <li> <strong>February 18th</strong> </li>
+                    <li> <strong>at least 15</strong> </li>
+                    <li> <strong>up to $2500</strong> </li>
+                    <li> Submit your <strong>high school transcript</strong> and answer <strong>7 essay questions</strong> (600-2000 <strong>characters</strong>)</li>
+                </ul>    
             </li>
         </ul>
     `
@@ -375,19 +430,19 @@ function march(){
         console.log("mobile");
     }
     main.innerHTML="";
-    main.insertAdjacentHTML("afterbegin",`
-            <h2>March Scholarships</h2>
-            <ul id="financial_aid">
-                <li class="scholarship">
-                    <a href="https://www.gallerycollection.com/greetingcardscontests.htm">https://www.gallerycollection.com/greetingcardscontests.htm</a>  
-                    <ul>
-                        <li> <strong>March 3</strong> </li>
-                        <li> at least <strong>14</strong> </li>
-                        <li> <strong>$10,000</strong> </li>
-                        <li>submit an <strong>original design for a greeting card</strong> (any occasion)</li>
-                    </ul>
-                </li>
-            </ul>`
+    main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
+        <h2>March Scholarships</h2>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.gallerycollection.com/greetingcardscontests.htm">https://www.gallerycollection.com/greetingcardscontests.htm</a>  
+                <ul>
+                    <li> <strong>March 3</strong> </li>
+                    <li> at least <strong>14</strong> </li>
+                    <li> <strong>$10,000</strong> </li>
+                    <li>submit an <strong>original design for a greeting card</strong> (any occasion)</li>
+                </ul>
+            </li>
+        </ul>`
     );
 } 
 
@@ -402,27 +457,28 @@ function may(){
         console.log("mobile");
     }
     main.innerHTML="";
-    main.insertAdjacentHTML("afterbegin",`
+    main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h3>May Scholarships</h3>
-            <ul id="financial_aid">
-                <li class="scholarship">
+        <ul id="financial_aid">
+            <li class="scholarship">
                 <a href="https://www.projectparadigm.org/#mid=&offset=&page=&s=">https://www.projectparadigm.org/#mid=&offset=&page=&s=</a>
                 <ul>
                     <li> <strong>May 01</strong> </li>
                     <li> <strong>All high school</strong> </li>
                     <li> <strong>$100,000</strong> </li>
                     <li> <strong>Create a way to help solve real-life problems</strong> in homes, schools, communities, and/or around the world and <strong>submit a brief statement about your idea</strong> (140 -characters or less) . (Entries may come in the form of posters, videos, inventions, messages, community events, websites, pr mobile apps)</li>
-                </li>
-            </ul>
-            <ul id="financial_aid">
-                <li class="scholarship">
-                    <a href="https://constitutingamerica.org/contest-categories/">https://constitutingamerica.org/contest-categories/</a> 
-                    <ul>
-                        <li> <strong>May 31</strong> </li>
-                        <li> at least <strong>14</strong> </li>
-                        <li> <strong>$1,000</strong> </li>
-                        <li> submit an <strong>essay, song, STEM project, short film, social media video, or PSA about the Constitution</strong> </li>
-                </li>
-            </ul>`
-    );
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://constitutingamerica.org/contest-categories/">https://constitutingamerica.org/contest-categories/</a> 
+                <ul>
+                    <li> <strong>May 31</strong> </li>
+                    <li> at least <strong>14</strong> </li>
+                    <li> <strong>$1,000</strong> </li>
+                    <li> submit an <strong>essay, song, STEM project, short film, social media video, or PSA about the Constitution</strong> </li>
+            </li>
+        </ul>`
+);
 } 
