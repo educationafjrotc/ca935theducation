@@ -1,5 +1,5 @@
 //updates information on scholarship page based on button input
-//current through 9/18
+//current through 9/25
 
 function july(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
