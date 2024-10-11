@@ -70,10 +70,12 @@ p, ul, li {
 }
 
 footer {
+  bottom:0;
+  left:0;
   background-color: #FDFBF3;
   border-top-color: #011627;
   border-top-style: solid;
-  padding: 10px;
+  padding: 1vh;
   position: absolute;
   width: 100%;  
 }

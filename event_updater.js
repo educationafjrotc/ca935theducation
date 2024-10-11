@@ -14,20 +14,20 @@ function august(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`
         <h2>August Events</h2>
-            <ul>
-              <li>
-                Scientists have recently discovered a rare hyper-velocity star that is moving so fast it could escape the milky way. 
-                <a href="https://www.cnn.com/2024/08/21/science/hypervelocity-star-escape-milky-way/index.html">https://www.cnn.com/2024/08/21/science/hypervelocity-star-escape-milky-way/index.html</a>
-              </li>
-              <li>
-                Monkey pox vaccines arrive in Africa to combat local outbreaks
-                <a href="https://www.google.com/amp/s/www.bbc.com/news/articles/cd734115e5eo.amp">https://www.google.com/amp/s/www.bbc.com/news/articles/cd734115e5eo.amp</a>
-              </li>
-              <li>
-                A drug used to treat Type 2 diabetes and obesity could also slow down the process of ageing. 
-                <a href="https://www.bbc.com/news/articles/ce81j919gdjo">https://www.bbc.com/news/articles/ce81j919gdjo</a>
-              </li>
-            </ul>`
+        <ul>
+            <li>
+            Scientists have recently discovered a rare hyper-velocity star that is moving so fast it could escape the milky way. 
+            <a href="https://www.cnn.com/2024/08/21/science/hypervelocity-star-escape-milky-way/index.html">https://www.cnn.com/2024/08/21/science/hypervelocity-star-escape-milky-way/index.html</a>
+            </li>
+            <li>
+            Monkey pox vaccines arrive in Africa to combat local outbreaks
+            <a href="https://www.google.com/amp/s/www.bbc.com/news/articles/cd734115e5eo.amp">https://www.google.com/amp/s/www.bbc.com/news/articles/cd734115e5eo.amp</a>
+            </li>
+            <li>
+            A drug used to treat Type 2 diabetes and obesity could also slow down the process of ageing. 
+            <a href="https://www.bbc.com/news/articles/ce81j919gdjo">https://www.bbc.com/news/articles/ce81j919gdjo</a>
+            </li>
+        </ul>`
     );
 } 
 
@@ -60,3 +60,29 @@ function september(){
         </ul>`
     );
 } 
+
+function october(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("current_desktop");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("current_mobile");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2> October Events </h2>
+        <ul>
+            <li>
+                Jaelan Phillips injured a knee on Monday and ruptured his Achilles last year
+                <a href="https://www.foxnews.com/sports/dolphins-linebacker-pens-heartfelt-message-after-suffering-season-ending-injury-second-year-row">https://www.foxnews.com/sports/dolphins-linebacker-pens-heartfelt-message-after-suffering-season-ending-injury-second-year-row</a>
+            </li>
+            <li>
+                Hurricane Milton, a category 5 hurricane, is breaking records and pushing limits even before landfall.
+                <a href="https://www.nbcchicago.com/weather/hurricane-milton-approaches-limits-of-what-earths-atmosphere-can-produce/3567381/%3Famp=1">https://www.nbcchicago.com/weather/hurricane-milton-approaches-limits-of-what-earths-atmosphere-can-produce/3567381/%3Famp=1</a>
+            </li>
+        </ul>`
+    );
+}

@@ -73,6 +73,7 @@ function september(){
         <h6>Brigade Scholarships:</h6>
         <ul>
             <li id="brigade"><a href="https://docs.google.com/document/d/191-JB1OnZPWOtUuSl8cC5SYySoJgIJ3_gESf5Mg3L0E/edit?usp=sharing">Brigade Scholarships Issue #4</a></li>
+            <li id="brigade"><a href="https://docs.google.com/document/d/1c-rc9fMz1k72X8wbMr-2wsYEn8ORB4xkO3hq59n4d-U/edit">Brigade Scholarships Issue #5</a></li>
         </ul>
         <h6>Unit Scholarships:</h6>
         <ul id="financial_aid">
@@ -281,7 +282,20 @@ function november(){
                     <li> submit a <strong>300 word essay</strong> (how does writing impact today’s world?) </li>
                 </ul>
             </li>
-        </ul>`
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://divorcefirm.net/2024-selfless-parent-scholarship/">https://divorcefirm.net/2024-selfless-parent-scholarship/</a>
+                <ul>
+                    <li> <strong>November 30th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>$1000</strong> </li>
+                    <li> <strong>minimum 3.0 GPA</strong> </li>
+                    <li> Submit a <strong>resume, transcript, and write a 750 word essay</strong> about how your parents' sacrifices have helped you in life. </li>
+                </ul>
+            </li>
+        </ul>
+        `
     );
     let scholarships = document.getElementsByClassName('scholarship');
     for (let i = 0; i < scholarships.length; i++) {
@@ -310,6 +324,28 @@ function december(){
                     <li> <strong>Seniors</strong> </li>
                     <li> <strong>$1,000</strong> </li>
                     <li> create a form of <strong>social awareness</strong> that inspires other students to focus <strong>on looking twice for motorcycle safety</strong>(video, essay, artwork, etc.) </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://coolidgescholars.org/about/">https://coolidgescholars.org/about/</a>
+                <ul>
+                    <li> <strong>December 11th</strong> </li>
+                    <li> <strong>Juniors</strong> </li>
+                    <li> <strong>Full-tuition</strong> </li>
+                    <li> Submit a letter of <strong>recommendation, transcript, and resume. Answer 3 essays and 2 short response questions</strong> about yourself and American history. </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.ngsgenealogy.org/competitions/rubincam-youth-award/">ttps://www.ngsgenealogy.org/competitions/rubincam-youth-award/</a>
+                <ul>
+                    <li> <strong>December 15th</strong> </li>
+                    <li> <strong>all grades</strong> </li>
+                    <li> <strong>$500</strong> </li>
+                    <li> Submit a <strong>genealogy</strong> in a <strong>biographical narrative</strong> format for <strong>one family line</strong> </li>
                 </ul>
             </li>
         </ul>
@@ -434,12 +470,34 @@ function march(){
         <h2>March Scholarships</h2>
         <ul id="financial_aid">
             <li class="scholarship">
+                <a href="https://directingchangeca.org/">https://directingchangeca.org/</a>
+                <ul>
+                    <li> <strong>March 1st</strong> </li>
+                    <li> <strong>ages 12-15</strong> </li>
+                    <li> <strong>Up to $500</strong> </li>
+                    <li> Submit a <strong>film</strong> of no more than 60 seconds related to <strong>mental health or suicide prevention</strong> </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
                 <a href="https://www.gallerycollection.com/greetingcardscontests.htm">https://www.gallerycollection.com/greetingcardscontests.htm</a>  
                 <ul>
                     <li> <strong>March 3</strong> </li>
                     <li> at least <strong>14</strong> </li>
                     <li> <strong>$10,000</strong> </li>
                     <li>submit an <strong>original design for a greeting card</strong> (any occasion)</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://stosselintheclassroom.org/essay-contest/>https://stosselintheclassroom.org/essay-contest/</a>
+                <ul>
+                    <li> <strong>March 21st</strong> </li>
+                    <li> <strong>all high school students</strong> </li>
+                    <li> <strong>up to $2,500</strong> </li>
+                    <li> Submit a <strong>500-1,000 word essay</strong> about one of the four essay topics listed on the application </li>
                 </ul>
             </li>
         </ul>`
