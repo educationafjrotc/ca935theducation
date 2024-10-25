@@ -1,5 +1,5 @@
 //updates information on scholarship page based on button input
-//current through 9/25
+//current through 10/23
 
 function july(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -221,6 +221,30 @@ function october(){
                 </ul>
             </li>
         </ul>
+        <ul id="financial_aid">
+            <li class="financial_aid">
+                <a href="https://www.goodwall.io/tags/ScholarshipNow">https://www.goodwall.io/tags/ScholarshipNow</a>
+                <ul>
+                    <li> <strong>October 31</strong> </li>
+                    <li> <strong>at least 18 years old, or 16 year old with parent permission at time of entry</strong>
+                    <li> <strong>must have the goodwall app(it is free)<strong> </li>
+                    <li> <strong>$2,500>/strong> </li>
+                    <li> <strong>film a 2 minute video</strong> speaking about how winning the scholarship will <strong>help you achieve your education goals</strong> </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class="scholarships">
+                <a href="https://chea-elks.org/scholarship-information/">https://chea-elks.org/scholarship-information/</a>
+                <ul>
+                    <li> <strong>At least 30 days before your course begins</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Only for a vocational/technical program</strong> </li>
+                    <li> <strong>$500 - $2000</strong> depending on the price of your course </li>
+                    <li> Write a <strong>statement of no more than 350 words</strong> about why you are qualified for the grant, your <strong>transcript</strong>, and <strong>verification</strong> that the <strong>vocational course exists</strong> at the school you are planning to attend </li>
+                </ul>
+            </li>
+        </ul>
         `
     );
 } 
@@ -295,6 +319,33 @@ function november(){
                 </ul>
             </li>
         </ul>
+        <ul id = "financial_aid">
+            <li class="scholarships>
+                <a href="https://www.ushli.org/dennys-scholarship-application/">https://www.ushli.org/dennys-scholarship-application/</a>
+                <ul>
+                    <li> <strong>November 30th</strong> </li>
+                    <li> <strong>all grades</strong> </li>
+                    <li> <strong>Minimum 2.5 GPA</strong> </li>
+                    <li> <strong>$1000</strong> </li>
+                    <li> <strong>300 word essay</strong> on how Denny’s can unite communities</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class="scholarships">
+                <a href="https://www.ushli.org/rumba/">https://www.ushli.org/rumba/</a>
+                <ul>
+                    <li> <strong>November 30th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>minimum 2.5 GPA</strong> </li>
+                    <li> <strong>Must be hispanic</strong> </li>
+                    <li> <strong>Must have financial need</strong> </li>
+                    <li> <strong>$25,000</strong> </li>
+                    <li> Write <strong>two 500-1000 word essays</strong> about your family background and hispanic heritage.</li>
+                </ul>
+            </li>
+        </ul>
+
         `
     );
     let scholarships = document.getElementsByClassName('scholarship');
@@ -504,6 +555,33 @@ function march(){
     );
 } 
 
+function april(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("monthlyD");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("monthlyM");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
+        <h2>March Scholarships</h2>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.digitalresponsibility.org/ewaste-scholarship">https://www.digitalresponsibility.org/ewaste-scholarship</a>
+                <ul>
+                    <li> <strong>April 30, 2025</strong> </li>
+                    <li> <strong>All high school students</strong> </li>
+                    <li> <strong>$1,000</strong> </li>
+                    <li> submit a <strong>short statement</strong> that completes the sentence <strong>”The most important reason to care about e-waste is…”</strong> </li>
+                </ul>
+            </li>
+        </ul>
+   `);
+}
+
 function may(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     if (width>1033){
@@ -525,6 +603,17 @@ function may(){
                     <li> <strong>All high school</strong> </li>
                     <li> <strong>$100,000</strong> </li>
                     <li> <strong>Create a way to help solve real-life problems</strong> in homes, schools, communities, and/or around the world and <strong>submit a brief statement about your idea</strong> (140 -characters or less) . (Entries may come in the form of posters, videos, inventions, messages, community events, websites, pr mobile apps)</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://www.oneearthfilmfest.org/contest-details/">https://www.oneearthfilmfest.org/contest-details/</a>
+                <ul>
+                    <li> <strong>May 25</strong> </li>
+                    <li> <strong>all high school students</strong> </li>
+                    <li> <strong>up to $1,000</strong> </li>
+                    <li> <strong>3-8 minute environmental film</strong> that motivate views towards behavior change</li>
                 </ul>
             </li>
         </ul>

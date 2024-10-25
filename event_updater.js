@@ -1,5 +1,5 @@
 //updates information on scholarship page based on button input
-//current through 9/25
+//current through 10/23
 
 function august(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -82,6 +82,14 @@ function october(){
             <li>
                 Hurricane Milton, a category 5 hurricane, is breaking records and pushing limits even before landfall.
                 <a href="https://www.nbcchicago.com/weather/hurricane-milton-approaches-limits-of-what-earths-atmosphere-can-produce/3567381/%3Famp=1">https://www.nbcchicago.com/weather/hurricane-milton-approaches-limits-of-what-earths-atmosphere-can-produce/3567381/%3Famp=1</a>
+            </li>
+            <li>
+                Scientists have made progress in forecasting earthquakes in California by identifying subtle seismic patterns that could help predict major quakes more accurately.
+                <a href="https://www.cnn.com/2024/10/16/climate/california-earthquake-prediction/index.html">https://www.cnn.com/2024/10/16/climate/california-earthquake-prediction/index.html</a>
+            </li>
+            <li>
+                Moldova votes to join EU by a narrow margin
+                <a href="https://www.bbc.com/news/articles/c1wnr5qdxe7o.amp">https://www.bbc.com/news/articles/c1wnr5qdxe7o.amp</a>
             </li>
         </ul>`
     );
