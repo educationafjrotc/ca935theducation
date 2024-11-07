@@ -1,5 +1,5 @@
 //updates information on scholarship page based on button input
-//current through 10/23
+//current through 11/3
 
 function july(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -164,6 +164,11 @@ function october(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>October Scholarships</h2>
+        <h6>Brigade Scholarships:</h6>
+        <ul>
+            <li id="brigade"><a href="https://drive.google.com/file/d/1QOPvS_lX4uqPcRCcyvqOofzXldHLTZu-/view">Cadet Compass Issue #1</a></li>
+        </ul>
+        <h6>Unit Scholarships:</h6>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://asti.com/aecscholarship/">https://asti.com/aecscholarship/</a> 
@@ -227,8 +232,8 @@ function october(){
                 <ul>
                     <li> <strong>October 31</strong> </li>
                     <li> <strong>at least 18 years old, or 16 year old with parent permission at time of entry</strong>
-                    <li> <strong>must have the goodwall app(it is free)<strong> </li>
-                    <li> <strong>$2,500>/strong> </li>
+                    <li> <strong>must have the goodwall app(it is free)</strong> </li>
+                    <li> <strong>$2,500</strong> </li>
                     <li> <strong>film a 2 minute video</strong> speaking about how winning the scholarship will <strong>help you achieve your education goals</strong> </li>
                 </ul>
             </li>
@@ -284,6 +289,18 @@ function november(){
                 </ul>
             </li>
         </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.jkcf.org/our-scholarships/college-scholarship-program/how-to-apply/">https://www.jkcf.org/our-scholarships/college-scholarship-program/how-to-apply/</a>
+                <ul>
+                    <li> <strong>November 14th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Minimum 3.75 unweighted GPA</strong> </li>
+                    <li> <strong>Must demonstrate financial need</strong> </li>
+                    <li> Submit <strong>two academic letters of recommendation, one letter of recommendation from your counselor, school report, and transcript</strong> </li>
+                </ul>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://odenzascholarships.com/awards/8/eligibility_odenza_marketing_group_scholarship.php">https://odenzascholarships.com/awards/8/eligibility_odenza_marketing_group_scholarship.php</a> 
@@ -320,7 +337,7 @@ function november(){
             </li>
         </ul>
         <ul id = "financial_aid">
-            <li class="scholarships>
+            <li class="scholarship">
                 <a href="https://www.ushli.org/dennys-scholarship-application/">https://www.ushli.org/dennys-scholarship-application/</a>
                 <ul>
                     <li> <strong>November 30th</strong> </li>
@@ -332,7 +349,7 @@ function november(){
             </li>
         </ul>
         <ul id = "financial_aid">
-            <li class="scholarships">
+            <li class="scholarship">
                 <a href="https://www.ushli.org/rumba/">https://www.ushli.org/rumba/</a>
                 <ul>
                     <li> <strong>November 30th</strong> </li>
@@ -342,6 +359,17 @@ function november(){
                     <li> <strong>Must have financial need</strong> </li>
                     <li> <strong>$25,000</strong> </li>
                     <li> Write <strong>two 500-1000 word essays</strong> about your family background and hispanic heritage.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href="https://www.dmvedu.org/scholarship/">https://www.dmvedu.org/scholarship/</a>
+                <ul>
+                    <li> <strong>November 30th</strong> </li>
+                    <li> <strong>all high students</strong> </li>
+                    <li> <strong>$500</strong> </li>
+                    <li> submit an <strong>essay of 750 words</strong> answering the questions about the importance of diver education and road safety(available on the website) </li>
                 </ul>
             </li>
         </ul>
@@ -375,6 +403,18 @@ function december(){
                     <li> <strong>Seniors</strong> </li>
                     <li> <strong>$1,000</strong> </li>
                     <li> create a form of <strong>social awareness</strong> that inspires other students to focus <strong>on looking twice for motorcycle safety</strong>(video, essay, artwork, etc.) </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://pointfoundation.org/scholarships/flagship">https://pointfoundation.org/scholarships/flagship</a>
+                <ul>
+                    <li> <strong>December 5th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Must be LGBTQ+</strong> </li>
+                    <li> <strong>Award is based on financial need</strong> </li>
+                    <li> Upload a <strong>transcript, an estimate of financial need, three activities you are involved in, and a 300 word essay</strong> about what makes you who you are.</li>
                 </ul>
             </li>
         </ul>
@@ -441,6 +481,17 @@ function january(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>January Scholarships</h2>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.tacobellfoundation.org/live-mas-scholarship/">https://www.tacobellfoundation.org/live-mas-scholarship/</a>
+                <ul>
+                    <li> <strong>January 8th</strong> </li>
+                    <li> <strong>16 and older</strong> </li>
+                    <li> <strong>$25,000</strong> </li>
+                    <li> submit a <strong>two minute video</strong> describing what you're passionate about and and your educational plans</li>
+                </ul>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://jfkessaycontest.smapply.io/prog/john_f_kennedy_profile_in_courage_essay_contest/">https://jfkessaycontest.smapply.io/prog/john_f_kennedy_profile_in_courage_essay_contest/</a>
@@ -567,7 +618,18 @@ function april(){
     }
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
-        <h2>March Scholarships</h2>
+        <h2>April Scholarships</h2>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://mchekc.org/teachers-students/white-rose-students-research-contest-2024-2025">https://mchekc.org/teachers-students/white-rose-students-research-contest-2024-2025</a>
+                <ul>
+                    <li> <strong>April 4th</strong> </li>
+                    <li> <strong>All grades</strong> </li>
+                    <li> <strong>$300</strong> </li>
+                    <li> Write an <strong>essay of up to 1600 words</strong> about how and why one category of non-jewish victims experienced persecution</li>
+                </ul>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://www.digitalresponsibility.org/ewaste-scholarship">https://www.digitalresponsibility.org/ewaste-scholarship</a>

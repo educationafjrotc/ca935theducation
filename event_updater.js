@@ -1,5 +1,5 @@
 //updates information on scholarship page based on button input
-//current through 10/23
+//current through 11/7
 
 function august(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -91,6 +91,32 @@ function october(){
                 Moldova votes to join EU by a narrow margin
                 <a href="https://www.bbc.com/news/articles/c1wnr5qdxe7o.amp">https://www.bbc.com/news/articles/c1wnr5qdxe7o.amp</a>
             </li>
+            <li>
+                A new 3D map showcases filaments being released from the remnants of a supernova
+                <a href="https://www.cnn.com/2024/10/30/science/dandelion-supernova-filament-map/index.html">https://www.cnn.com/2024/10/30/science/dandelion-supernova-filament-map/index.html</a>
+            </li>
         </ul>`
     );
 }
+
+function november(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("current_desktop");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("current_mobile");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2> November Events </h2>
+        <ul>
+            <li>
+            Trump based his campaign on driving down inflation and improving the economy. Here's what he plans to do: 
+            <a href="https://www.cnn.com/2024/11/06/politics/heres-what-trump-is-proposing-for-the-economy/index.html">https://www.cnn.com/2024/11/06/politics/heres-what-trump-is-proposing-for-the-economy/index.html</a>
+            </li>
+        </ul>`
+    );
+}  
