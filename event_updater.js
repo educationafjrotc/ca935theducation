@@ -1,5 +1,5 @@
-//updates information on scholarship page based on button input
-//current through 11/7
+//updates information on current events page based on button input
+//current through 12/11
 
 function august(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -114,8 +114,42 @@ function november(){
         <h2> November Events </h2>
         <ul>
             <li>
-            Trump based his campaign on driving down inflation and improving the economy. Here's what he plans to do: 
-            <a href="https://www.cnn.com/2024/11/06/politics/heres-what-trump-is-proposing-for-the-economy/index.html">https://www.cnn.com/2024/11/06/politics/heres-what-trump-is-proposing-for-the-economy/index.html</a>
+                <a href="https://www.cnn.com/2024/11/06/politics/heres-what-trump-is-proposing-for-the-economy/index.html">https://www.cnn.com/2024/11/06/politics/heres-what-trump-is-proposing-for-the-economy/index.html</a> <br>
+                Trump based his campaign on driving down inflation and improving the economy. Here's what he plans to do. 
+            </li>
+            <li>
+                <a href="https://www.outkick.com/sports/volleyball-players-sue-mountain-west-first-amendment-outkick-exclusive">https://www.outkick.com/sports/volleyball-players-sue-mountain-west-first-amendment-outkick-exclusive</a> <br>
+                A group of female volleyball players from the Mountain West Conference has filed a lawsuit alleging First Amendment and Title IX violations, claiming a new policy restricting their speech arose from controversy surrounding a transgender player on a San Jose State team.
+            </li>
+            <li>
+                <a href="https://apnews.com/article/congo-rebel-group-m23-ethnic-cleansing-2b3bfa6357fca88804e865db7912377b">https://apnews.com/article/congo-rebel-group-m23-ethnic-cleansing-2b3bfa6357fca88804e865db7912377b</a> <br>
+                Congo accuses rebel group of ‘ethnic cleansing’ in country’s east.
+            </li>
+        </ul>`
+    );
+}  
+
+function december(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("current_desktop");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("current_mobile");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2> December Events </h2>
+        <ul>
+            <li>
+                <a href="https://www.cnn.com/2024/12/04/science/ancient-needles-discovery-wyoming/index.html">https://www.cnn.com/2024/12/04/science/ancient-needles-discovery-wyoming/index.html</a> <br>
+                Archaeologists excavated part of the La Prele archaeological site in 2016. They found needles made from bones of the red fox and wild cat
+            </li>
+            <li>
+                <a href="https://www.aljazeera.com/opinions/2024/12/11/georgia-has-set-a-precedent-that-could-undermine-eu-enlargement">https://www.aljazeera.com/opinions/2024/12/11/georgia-has-set-a-precedent-that-could-undermine-eu-enlargement</a> <br>
+                It has been two weeks since the start of anti-government protests in the country Georgia. The protests stem from the new President's decision to pull out of the EU. Georgia's unclear EU status may set a precedent of enjoying EU privileges without making any reforms.        
             </li>
         </ul>`
     );

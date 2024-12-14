@@ -8,21 +8,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="month_styles.css" />
     <title>CA-935th Education</title>
     <link rel="shortcut icon" type="image/x-icon" href='static/images/favicon.ico'>
     <style>
-        .main li, .main ul{
-            text-align:left;
+        .main{
+            text-align:center;
             
         }
         .info{
             
-            padding:2vh 10vw 2vh 10vw;
+            /*padding:2vh 10vw 2vh 10vw;*/
+            text-align:center;
         }
     </style>
 </head>
 
-<body>
+<body onload="biomaterialsEngineer()">
   <nav class="navbar navbar-expand-lg nav_color">
     <img src="static\images\new_owl_diff_eyes(resized).png" alt="website logo" class="HideOnMobile">
     <a class="navbar-brand header_link" href="index.html">CA-935th Education</a>
@@ -45,93 +47,49 @@
         </li>
       </ul>
     </div>
-  </nav>
+  </nav> 
     <div class="main">
-        <h2 style="color:#00C7CE">Biomaterials Engineering!</h2>
-
-        <div class = "info">
-            <h4 style="color:#FA7E61">Job Description</h4>
-            <p>
-                Biomaterials Engineers <strong>design, test, and create</strong> materials intended for <strong>medical and biological applications</strong>. These materials are used in <strong>implants, 
-                prosthetics, tissue engineering, and drug delivery systems</strong>. By choosing this job, <u>YOU</u> will have a direct and positive impact on other people! <br>
-                If you’re interested in <strong>research</strong>, this could be the job for you! Biomaterials engineers regularly <strong>conduct experiments</strong> and <strong>collaborate with other 
-                biomaterials engineers, and physicians</strong> to ensure every material adheres to safety regulations and standards. <br>
-                If any of this sounds interesting, keep reading to learn more about Biomaterials Engineers!
-            </p>
+        <div class="HideOnMobile">
+            <div id="sidebar_desktop">
+                <div class="past_future">
+                    <h2>Careers</h2>
+                    <div class="month" onclick="biomaterialsEngineer()">
+                        <h4>Biomaterials Engineer</h4>
+                    </div>
+                    <div class="month" onclick="environmentalBiologist()">
+                        <h4>Environmental Biologist</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="mainContent">
+                <div id="monthlyD"> </div>
+            </div>
         </div>
-
-        <div class = "info">
-            <h4 style="color:#FFB800">Average Salary</h4>
-            <p>
-                The salary of biomaterials engineers depends a lot on their experience level. In the U.S, <strong>entry level(0-2 years)</strong> biomaterial developers are paid 
-                <strong>$60K-$75K mid-level(3-5 years)</strong> get paid <strong>75k-$95k</strong> per year, and <strong>senior-level(5+ years)</strong> biomaterial developes get earn between <strong>$95,000 and 
-                $130,000</strong> annually. These are just some of the average statistics in the US. Some companies give more or less than the average.
-            </p>
+        <div class="ShowOnMobile">
+            <div id="toggle" onclick="myFunction(this)" onclick="myfunc()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="sidebar_mobile">
+                <div class="past_future">
+                    <h2>Careers</h2>
+                    <div class="month" onclick="biomaterialsEngineer()">
+                        <h4>Biomaterials Engineer</h4>
+                    </div>
+                    <div class="month" onclick="environmentalBiologist()">
+                        <h4>Environmental Biologist</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="current_mobile">
+                <div id="mainContent">
+                    <div id="monthlyM"> </div>
+                </div>
+            </div>
         </div>
-
-        <div class = "info">
-            <h4 style="color:#00C7CE">Required Majors/Education</h4>
-            <p>
-                In order to become a biomaterials engineer , you need to have a <strong>bachelor's degree</strong> in <u>Biomedical Engineering, Materials Science or Chemical 
-                Engineering</u>. A <strong>master's degree</strong> in <u>Biomaterials or Bioengineering</u> is necessary. Some of the best universities for biomaterial development in the US 
-                are <strong><u>Johns Hopkins Medicine, Stanford University, University of California Berkeley and Georgia Institute of Technology</u></strong>. At the international level,
-                a few top universities for biomaterial development include: <strong><u>The University of Cambridge, ETH Zurich, The University of Toronto and Imperial College
-                London National University of Singapore</u></strong>.
-            </p>
-        </div>
-
-        <div class = "info">
-            <h4 style="color:#FA7E61">Projected Job Growth</h4>
-            <p>
-                Biomaterials engineering is expected to <strong>grow by 7%</strong> over the next decade. That is <strong>3% faster than the national average</strong>! 
-            </p>
-        </div>
-
-        <div class = "info">
-            <h4 style="color:#FFB800">Example Jobs</h4>
-            <p>
-                Although you aren’t applying to jobs right now, looking at existing biomaterials developer jobs can give you an idea of what to expect and what 
-                the job actually looks like. Here are three example jobs:
-                <ul>
-                    <li>
-                        <a href="https://www.ziprecruiter.com/c/Terasaki-Institute-for-Biomedical-Innovation/Job/Postdoctoral-Researcher:-Biomaterials-and-Tissue-Engineering-(On-Site)/-in-Los-Angeles,CA?jid=640d45e199f481b9">Biomaterials and Tissue Engineer at Terasaki Institute for Biomedical Innovation</a>
-                        <ul>
-                            <li>
-                                Biomaterials Engineers at the Terasaki Institute <strong>develop an “organ-on-a-chip”</strong>. This is a revolutionary technology which <strong>aims to completely 
-                                eliminate animal testing</strong> by manufacturing human tissues on a chip to test medications. Their responsibilities include <strong>conducting experiments 
-                                related to tissue engineering, innovating novel solutions to problems, and sharing your findings</strong> through seminars, conferences, and publications. In order 
-                                to qualify for this job you will need a <strong>PhD</strong>, a strong record of previous <strong>publications in peer-reviewed journals, and experience with cells
-                                </strong> and cell culture. This job is located in <strong>Los Angeles</strong> and pays <strong>$60,000</strong>. 
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="https://www.jobs.abbott/us/en/job/31097098/Materials-Engineer-II">Materials Engineer at Abbott</a>
-                        <ul>
-                            <li>
-                                At Abbott, Biomaterials Engineers work to <strong>combat atrial fibrillation</strong>, a disease characterized by an irregular heart beat. They accomplish this 
-                                by performing <strong>surface analysis, failure analysis, analytical chemistry, and corrosion testing</strong> with different materials to find and develop the 
-                                best one. Applicants to the job need a <strong>Bachelors, Masters, or PhD in material science</strong> or related degree and <strong>3-5 years of experience</strong>.
-                                This job is located in <strong>Saint Paul, Minnesota</strong> and pays <strong>$57,300.00 – $114,700.00</strong> (depending on location).
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="https://careers.planet-pharma.com/Biomedical-Engineer-II-Biochemistry-and-Biomaterials-Scientist-Jobs-in-Fridley-MN/11900050">Biomedical Engineer at Planet Pharma</a>
-                        <ul>
-                            <li>
-                                Planet Pharma <strong>develops tissues to use in prosthetic heart valves!</strong> Biomaterial Engineers at Planet Pharma <strong>conduct experiments</strong> 
-                                to <strong>characterize tissues</strong> in heart valves and <strong>determine what triggers calcification in hearts and communicate results</strong> via 
-                                detailed technical plans, reports, documents, and presentations. To work there you’ll need a <strong>bachelor's degree (higher degree preferred)</strong> in 
-                                <u>Chemical engineering, Biochemical engineering, Biomedical engineering</u> or related field and <strong>minimum 3 years experience</strong>. Planet Pharma is 
-                                located in <strong>Fridley, Minnesota</strong>. 
-                            </li>
-                        </ul>
-                    </li>
-                </ul>         
-            </p>
-       </div> 
-        <footer class="HideOnMobile">
+        
+       <footer class="HideOnMobile">
             <div class="container">
             <h1 class="name">CA-935th<br>Education</h1>
             <div class="form_elements">
@@ -173,5 +131,35 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="career_updater.js"></script>
+<script>
+    //sidebar expander for mobile from W3Schools
+    const toggleButton = document.getElementById('toggle');
+    const side = document.getElementById('sidebar_mobile');
+    const current = document.getElementsByClassName('current_mobile');
+    let isHidden = true;
+
+    toggleButton.addEventListener('click', function() {
+        if (isHidden) {
+            side.style.display = 'block';
+                for (var i=0;i<current.length;i+=1){
+                current[i].style.display = 'none';
+                }
+        } else {
+            side.style.display = 'none';
+            for (var i=0;i<current.length;i+=1){
+            current[i].style.display = 'block';
+            }
+        }
+        isHidden = !isHidden;
+    });
+
+    function myFunction(x) {
+        x.classList.toggle("change");
+      }
+      function myfunc(){
+      li.classList.toggle("show");
+    }
+</script>
 </body>
 </html>

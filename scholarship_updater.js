@@ -1,5 +1,6 @@
 //updates information on scholarship page based on button input
-//current through 11/3
+//current through 12/11
+//calender current through 11/3
 
 function july(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -373,7 +374,28 @@ function november(){
                 </ul>
             </li>
         </ul>
-
+        <ul id = "financial_aid">
+            <li class = "scholarship"
+                <a href="https://www.goodwall.io/tags/AnimalRescueUSA">https://www.goodwall.io/tags/AnimalRescueUSA</a>
+                <ul>
+                    <li> <strong>November 30</strong> </li>
+                    <li> <strong>16 or younger</strong> </li>
+                    <li> <strong>$50</strong> </li>
+                    <li> <strong>make a video or write about your pet rescue journey</strong> </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href="https://dosomething.org/action/talking-trash">https://dosomething.org/action/talking-trash</a>
+                <ul>
+                    <li> <strong>November 30th</strong> </li>
+                    <li> <strong>all high schoolers</strong> </li>
+                    <li> <strong>$500</strong> </li>
+                    <li> Test your knowledge of basic recycling facts by <strong>take a quiz and discover ways to reduce waste</strong> in your community.</li>
+                </ul>
+            </li>
+        </ul>
         `
     );
     let scholarships = document.getElementsByClassName('scholarship');
@@ -403,6 +425,19 @@ function december(){
                     <li> <strong>Seniors</strong> </li>
                     <li> <strong>$1,000</strong> </li>
                     <li> create a form of <strong>social awareness</strong> that inspires other students to focus <strong>on looking twice for motorcycle safety</strong>(video, essay, artwork, etc.) </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.dellscholars.org/students/">https://www.dellscholars.org/students/</a>
+                <ul>
+                    <li> <strong>December 1st</strong> </li>
+                    <li> <strong>High school juniors and seniors</strong> </li>
+                    <li> <strong>minimum 2.4 GPA</strong> </li>
+                    <li> <strong>eligible for the federal pell grant</strong> </li>
+                    <li> <strong>participating in a Dell Foundation approved college readiness program (e.g. avid)</strong> </li>
+                    <li> <strong>letter of recommendation and self-report a transcript</strong> </li>
                 </ul>
             </li>
         </ul>
@@ -492,6 +527,28 @@ function january(){
                 </ul>
             </li>
         </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href= "https://www.reaganfoundation.org/education/scholarship-programs/ge-reagan-foundation-scholarship-program/">https://www.reaganfoundation.org/education/scholarship-programs/ge-reagan-foundation-scholarship-program/</a>
+                <ul>
+                    <li> <strong>January 3rd</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>minimum 3.0 GPA</strong> </li>
+                    <li> <strong>up to $40,000</strong> </li> 
+                    <li> Provide <strong>information about your community service, extracurriculars, and work experience</strong>. Write an <strong>essay about your leadership experience, and write a statement about your goals</strong>.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.gwcf.org/scholarship">https://www.gwcf.org/scholarship</a>
+                <ul>
+                    <li> <strong>January 15th</strong> </li>
+                    <li> <strong>Senior</strong> </li>
+                    <li> <strong>300 word essay about why you want a job in government service,transcript, SAT/ACT scores, resume</strong> </li>
+                </ul>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://jfkessaycontest.smapply.io/prog/john_f_kennedy_profile_in_courage_essay_contest/">https://jfkessaycontest.smapply.io/prog/john_f_kennedy_profile_in_courage_essay_contest/</a>
@@ -500,6 +557,17 @@ function january(){
                     <li> <strong>all high school students</strong> </li>
                     <li> <strong>Up to $10,000</strong> </li>
                     <li> Submit a <strong>700-1,000 word essay</strong> that <strong>describes and analyzes an act of political courage by a U.S. elected official who served during or after 1917</strong> </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href="http://www.digitalresponsibility.org/technology-addiction-awareness-scholarship">http://www.digitalresponsibility.org/technology-addiction-awareness-scholarship</a>
+                <ul>
+                    <li> <strong>January 30th</strong> </li> 
+                    <li> <strong>All grades</strong> </li>
+                    <li> <strong>$1000</strong> </li>
+                    <li> <strong>Write a 140 character statement</strong> about what you would do instead of spending time with technology. </li>
                 </ul>
             </li>
         </ul>
@@ -512,6 +580,18 @@ function january(){
                     <li> <strong>$10,000</strong> </li>
                     <li>You must work in a group of </strong>two to four students</strong>. Each team must <strong>select a technology or an aspect of a technology</strong>, which is present in the home, school, or community. The students must then <strong>project into the future</strong> what that technology could be like 10 or more years in the future and <strong>determine what scientific breakthroughs need to occur to make it a reality</strong> </li>
                 </ul>    
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href= "https://abdelkaderproject.org/student-contests/abdelkader-student-prize/">https://abdelkaderproject.org/student-contests/abdelkader-student-prize/</a>
+                <ul>
+                    <li> <strong>January 31st</strong> </li>
+                    <li> <strong>Juniors and Seniors</strong> </li>
+                    <li> <strong>Up to $1,500</strong> </li>
+                    <li> <strong>Write a 1,000-1,200 word essay or no more than a 5 minute multimedia video</strong> on the prompt - 
+                    How does the Emir’s approach to leadership remain relevant and meaningful today?</li>
+                </ul>
             </li>
         </ul>
     `
@@ -553,6 +633,17 @@ function february(){
                 </ul>    
             </li>
         </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://actionfornature.org/eco-hero-awards/"> https://actionfornature.org/eco-hero-awards/ </a>
+                <ul>
+                    <li> <strong>February 28th</strong> </li>
+                    <li> <strong>anyone under 16</strong> </li>
+                    <li> <strong>$1,000</strong> </li>
+                    <li> <strong>Complete a self-initiated, action-based project</strong> that focuses on environmental health, advocacy, research, or the protection of the natural world</li>
+                </ul>
+            </li>
+        </ul>
     `
     );
 }
@@ -581,6 +672,20 @@ function march(){
                 </ul>
             </li>
         </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.legion-aux.org/Scholarships/Children-of-Warriors">https://www.legion-aux.org/Scholarships/Children-of-Warriors</a>
+                <ul>
+                    <li> <strong>March 1st</strong></li>
+                    <li> <strong>Senior</strong> </li>
+                    <li> <strong>Have a parent(s) who is a veteran</strong> </li>
+                    <li> <strong>Have at least 50 volunteer hours</strong> </li>
+                    <li> <strong>$5000</strong> </li>
+                    <li> <strong>Write a 5000 word essay</strong> about how being a family member of a veteran inspired you to lead the way 
+                    in honoring our military and veterans?, attach 2 letters of recommendation, your SAT/ACT score, and a transcript</li>
+                </ul>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://www.gallerycollection.com/greetingcardscontests.htm">https://www.gallerycollection.com/greetingcardscontests.htm</a>  
@@ -589,6 +694,17 @@ function march(){
                     <li> at least <strong>14</strong> </li>
                     <li> <strong>$10,000</strong> </li>
                     <li>submit an <strong>original design for a greeting card</strong> (any occasion)</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://courageouspersuaders.com/distracted-driving/">https://courageouspersuaders.com/distracted-driving/</a>
+                <ul>
+                    <li> <strong>March 10, 2024</strong> </li>
+                    <li> <strong>All high schoolers</strong> </li>
+                    <li> <strong>$2000</strong> </li>
+                    <li> <strong>Create a 30 second commercial</strong> targeted to middle schoolers to warm them about the dangers of distracted driving </li>
                 </ul>
             </li>
         </ul>
@@ -687,7 +803,20 @@ function may(){
                     <li> at least <strong>14</strong> </li>
                     <li> <strong>$1,000</strong> </li>
                     <li> submit an <strong>essay, song, STEM project, short film, social media video, or PSA about the Constitution</strong> </li>
+                </ul>
             </li>
-        </ul>`
+        </ul>
+        <ul id = "financial_aid">
+            <li class= "scholarship">
+                <a href="https://www2.heart.org/site/SPageServer/?pagename=khc_resources_scholarships">https://www2.heart.org/site/SPageServer/?pagename=khc_resources_scholarships</a>
+                <ul>
+                    <li> <strong>May 31st</strong> </li>
+                    <li> <strong>Junior or Senior</strong> </li>
+                    <li> <strong>$1000</strong> </li>
+                    <li> <strong>Have a passion for your community’s health and submit a letter of recommendation</strong> </li>
+                </ul>
+            </li>
+        </ul>
+        `
 );
 } 

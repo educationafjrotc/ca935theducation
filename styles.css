@@ -1,5 +1,5 @@
 
-@font-face {
+@font-face { 
   font-family:'cocogoose';
   src:url('CocogoosePro-trial.ttf');
 }
@@ -75,7 +75,6 @@ footer {
   background-color: #FDFBF3;
   border-top-color: #011627;
   border-top-style: solid;
-  padding: 1vh;
   position: absolute;
   width: 100%;  
 }

@@ -82,7 +82,7 @@ h2{
 }
 
 .HideOnMobile #financial_aid , .HideOnMobile #brigade{
-    margin-left:35vw;
+    /*margin-left:35vw;*/
     text-align: left;
    
 }
@@ -92,4 +92,9 @@ h2{
     list-style-position: none;
     margin-left:0vw;
   }
+
+#monthlyD{
+    float:right;
+    width: 70vw;
+}
 
