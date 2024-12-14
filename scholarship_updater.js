@@ -268,6 +268,11 @@ function november(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>November Scholarships</h2>
+        <h6>Brigade Scholarships:</h6>
+        <ul>
+            <li id="brigade"><a href="https://drive.google.com/file/d/13AUprxRBySsUhhFuGDrnElKcfefqGcdj/view">Cadet Compass Issue #2</a></li>
+        </ul>
+        <h6>Unit Scholarships:</h6>
         <ul id="financial_aid">
             <li class="schoalarship">
                 <a href="https://sousafoundation.net/sub_menu_items/12">https://sousafoundation.net/sub_menu_items/12</a>
