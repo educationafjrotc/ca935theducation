@@ -2,6 +2,7 @@
  CA-935th's education website
 
 Table of Contents:
+
     -General pointers
     -How to update
     -Ideas for future additions
@@ -43,7 +44,8 @@ HOW TO UPDATE THE WEBSITE
 
         8. Remember to shift the divs with the month and career names as the month and latest career article changes!
 
-    KNOWLEDGE.HTML
+   KNOWLEDGE.HTML
+   
         1. Find the <h1> tag that says "Next Monday's Knowledge: "
 
         2. Change the text inside the <a> tag inside it to display the correct knowledge.
