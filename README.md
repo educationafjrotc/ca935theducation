@@ -8,6 +8,7 @@ Table of Contents:
     -Additional resources
 
 GENERAL POINTERS
+
     1. DO NOT CHANGE THE CLASSES, CSS, NON-TEXT CODE UNLESS YOU KNOW WHAT YOU ARE DOING AND ARE CONFIDENT IN YOUR ABLITIES TO FIX ANY DAMAGE YOU MAY HAVE CAUSED. However, don't be afraid to add new features, just don't commit until you know it works. 
 
     2. Usually external CSS, images, and fonts are stored in the static folder. However if you do this, these will components will not load in Firefox. Until you find a solution to this issue, keep everything where it currently is. 
@@ -25,6 +26,7 @@ GENERAL POINTERS
 
 HOW TO UPDATE THE WEBSITE
     SCHOLARSHIPS, CURRENT_EVENTS, & CAREERS
+    
         1. To add to the website, first navigate to the updater.js file of the page you want to update. DO NOT MAKE CHANGES DIRECTLY TO THE HTML PAGE.
 
         2. Then, copy paste the information into the function relavent to that information (ex. a scholarship due Sept. 30th should be pasted in to function september(){}. Information about a biomaterials engineer goes into the biomaterialsEngineer function). 
@@ -62,6 +64,7 @@ IDEAS FOR FUTURE ADDITIONS
 
 
 ADDITIONAL RESOURCES
+
     https://www.w3schools.com/html/default.asp
     https://stackoverflow.com
     https://geeksforgeeks.org
