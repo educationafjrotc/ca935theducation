@@ -1,5 +1,5 @@
 //updates information on scholarship page based on button input
-//current through 12/11
+//current through 1/8
 //calender current through 11/3
 
 function july(){
@@ -544,6 +544,18 @@ function january(){
                 </ul>
             </li>
         </ul>
+        <ul id = "financial_aid>
+            <li class = "scholarship">
+                <a href = "https://architectsfoundation.org/our-programs/architecture-scholarships/the-diversity-advancement-scholarship/">https://architectsfoundation.org/our-programs/architecture-scholarships/the-diversity-advancement-scholarship/</a>
+                <ul>
+                    <li> <strong>January 10th</strong> </li>
+                    <li> <strong>All high schoolers</strong> </li>
+                    <li> <strong>Be interested in majoring in architecture</strong> </li>
+                    <li> <strong>up to $20,000</strong> </li>
+                    <li> <strong>1200 word essay</strong> about the potential of architecture to improve communities, a resume, Two letters of recommendation, a portfolio of 3-5 artistic works</li>
+                </ul>
+            </li>
+        </ul>
         <ul id = "financial_aid">
             <li class = "scholarship">
                 <a href = "https://www.gwcf.org/scholarship">https://www.gwcf.org/scholarship</a>
@@ -551,6 +563,17 @@ function january(){
                     <li> <strong>January 15th</strong> </li>
                     <li> <strong>Senior</strong> </li>
                     <li> <strong>300 word essay about why you want a job in government service,transcript, SAT/ACT scores, resume</strong> </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://bmifoundation.org/by-application/dollypartonsongwritersaward">https://bmifoundation.org/by-application/dollypartonsongwritersaward</a>
+                <ul>
+                    <li> <strong>January 15th</strong> </li>
+                    <li> <strong>At least 17 years old</strong> </li>
+                    <li> <strong>$20,000</strong> </li>
+                    <li> <strong>Submit a song</strong> </li>
                 </ul>
             </li>
         </ul>
@@ -596,6 +619,17 @@ function january(){
                     <li> <strong>Up to $1,500</strong> </li>
                     <li> <strong>Write a 1,000-1,200 word essay or no more than a 5 minute multimedia video</strong> on the prompt - 
                     How does the Emir’s approach to leadership remain relevant and meaningful today?</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.goodwall.io/tags/ScholarshipNow">https://www.goodwall.io/tags/ScholarshipNow</a>
+                <ul>
+                    <li> <strong>January 31st</strong> </li>
+                    <li> <strong>Any highschooler</strong> </li>
+                    <li> <strong>$2,500</strong> </li>
+                    <li> <strong>1-3 min video about how the money would help you</strong>
                 </ul>
             </li>
         </ul>
@@ -718,7 +752,7 @@ function march(){
                 <a href="https://stosselintheclassroom.org/essay-contest/>https://stosselintheclassroom.org/essay-contest/</a>
                 <ul>
                     <li> <strong>March 21st</strong> </li>
-                    <li> <strong>all high school students</strong> </li>
+                    <li> <strong>All high school students</strong> </li>
                     <li> <strong>up to $2,500</strong> </li>
                     <li> Submit a <strong>500-1,000 word essay</strong> about one of the four essay topics listed on the application </li>
                 </ul>

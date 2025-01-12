@@ -1,5 +1,5 @@
 //updates information on current events page based on button input
-//current through 12/11
+//current through 1/8
 
 function august(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -154,3 +154,29 @@ function december(){
         </ul>`
     );
 }  
+
+function january(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("current_desktop");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("current_mobile");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2> January Events </h2>
+        <ul>
+            <li>
+                <a href="https://www.cnn.com/2024/12/18/science/astronauts-space-delay-return/index.html">https://www.cnn.com/2024/12/18/science/astronauts-space-delay-return/index.html</a> <br>
+                NASA astronauts Suni Williams and Butch Wilmore, who have been aboard the International Space Station since June 2024, will have their return to Earth delayed until at least late March 2025 due to the need for additional time to prepare a new SpaceX Dragon spacecraft.
+            </li>
+            <li>
+                <a href="https://www.bbc.com/news/articles/c878ryr04p8o">https://www.bbc.com/news/articles/c878ryr04p8o</a> <br>
+                Leader of Canada's Liberal Party, Justin Trudeau, resigns due to growing disapproval of him and his party and pressure from the United States.
+            </li>
+        </ul>`
+    );
+}
