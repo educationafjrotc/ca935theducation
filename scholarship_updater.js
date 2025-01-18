@@ -2,7 +2,7 @@
 //current through 1/8
 //calender current through 11/3
 
-function july(){
+function july(){ 
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     if (width>1033){
         var main = document.getElementById("monthlyD");
@@ -629,10 +629,22 @@ function january(){
                     <li> <strong>January 31st</strong> </li>
                     <li> <strong>Any highschooler</strong> </li>
                     <li> <strong>$2,500</strong> </li>
-                    <li> <strong>1-3 min video about how the money would help you</strong>
+                    <li> <strong>1-3 min video about how the money would help you</strong> </li>
                 </ul>
             </li>
         </ul>
+     <ul id = "financial_aid">
+        <li class = "scholarship">
+            <a href = "https://home.supermoney.com/scholarship">https://home.supermoney.com/scholarship</a>
+            <ul>
+                <li> <strong>year round submission</strong> (winners will be announced when they find a candidate that provide thoughtful deliverables)</li>
+                <li> <strong>high school seniors</strong> </li>
+                <li> <strong>3.0 GPA</strong> </li>
+                <li> <strong>$500</strong> </li>
+                <li> <strong>design a financial calculator</strong> that helps people make smart financial decisions</li>
+            </ul>
+        </li>
+    </ul>
     `
     );
 }
@@ -782,6 +794,18 @@ function april(){
                     <li> <strong>All grades</strong> </li>
                     <li> <strong>$300</strong> </li>
                     <li> Write an <strong>essay of up to 1600 words</strong> about how and why one category of non-jewish victims experienced persecution</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://suretybondauthority.com/scholarship-surety-bond-authority-2025/">https://suretybondauthority.com/scholarship-surety-bond-authority-2025/</a>
+                <ul>
+                    <li> <strong>April 6th</strong> </li>
+                    <li> <strong>All grades</strong> </li>
+                    <li> <strong>Must be intrested in a career in Accounting,Banking, or othe finance-related fields</strong> </li>
+                    <li> <strong>$1,500</strong> </li>
+                    <li> Write an <strong>write 500-1,000 word essay</strong> about why you want a career in Accounting, Banking or Finance</li>
                 </ul>
             </li>
         </ul>
