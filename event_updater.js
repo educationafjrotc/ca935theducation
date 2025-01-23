@@ -177,6 +177,14 @@ function january(){
                 <a href="https://www.bbc.com/news/articles/c878ryr04p8o">https://www.bbc.com/news/articles/c878ryr04p8o</a> <br>
                 Leader of Canada's Liberal Party, Justin Trudeau, resigns due to growing disapproval of him and his party and pressure from the United States.
             </li>
+            <li>
+                <a href="https://www.foxnews.com/us/californians-angry-devastating-wildfires-asking-where-high-tax-dollars-went-local-researcher">https://www.foxnews.com/us/californians-angry-devastating-wildfires-asking-where-high-tax-dollars-went-local-researcher </a> <br>
+                Amid the ongoing devastation of wildfires in Los Angeles, many Californians are questioning how their high tax dollars are being allocated, as officials struggle to control the fires that have destroyed over 12,300 homes and caused at least 11 deaths
+            </li>
+            <li>
+                <a href="https://www.cnn.com/2025/01/21/business/mr-beast-buy-tiktok-ceo/index.html">https://www.cnn.com/2025/01/21/business/mr-beast-buy-tiktok-ceo/index.html</a> <br>
+                On the 19th TikTok got shut down before returning only 14 hours later. The shutdown was due to a bill stating that TikTok must be sold to a United States company in order to stay in the US. Mr. Beast wants to buy TikTok to keep it in the US.
+            </li>
         </ul>`
     );
 }
