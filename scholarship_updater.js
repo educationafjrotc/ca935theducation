@@ -1,5 +1,5 @@
 //updates information on scholarship page based on button input
-//current through 1/8
+//current through 2/19
 //calender current through 11/3
 
 function july(){ 
@@ -662,6 +662,30 @@ function february(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>February Scholarships</h2>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://fisherhouse.org/programs/scholarship-programs/scholarships-for-military-children/">https://fisherhouse.org/programs/scholarship-programs/scholarships-for-military-children/</a>
+                <ul>
+                    <li> <strong>February 12th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>3.0 GPA</strong> </li> 
+                    <li> <strong>Have a parent who is/was in the military</strong> </li>
+                    <li> <strong>$2,000</strong> </li>
+                    <li> <strong>500 word essay</strong> about what service means to you and how you plan to serve others in your life and submit transcript</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href="https://www.christophers.org/highschoolpostercontest">https://www.christophers.org/highschoolpostercontest</a>
+                <ul>
+                    <li> <strong>February 13th</strong> </li>
+                    <li> <strong>Any highschooler</strong> </li>
+                    <li> <strong>up to $1,000</strong> </li>
+                    <li> <strong>Create a digital or physical poster</strong> which includes the statement “You can make a difference” and illustrates the idea that one person </li>
+                </ul>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://www.sar.org/george-s-stella-m-knight-essay-contest/">https://www.sar.org/george-s-stella-m-knight-essay-contest/</a>
@@ -671,6 +695,19 @@ function february(){
                     <li> <strong>up to $6000</strong> </li>
                     <li> <strong>800-1200 word essay</strong> on an event, person, philosophy or ideal associated with the American Revolution, Declaration of Independence, or the framing of the United States Constitution</li>
                 </ul>    
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href="https://www.hsf.net/scholarship">https://www.hsf.net/scholarship</a>
+                <ul>
+                    <li> <strong>February 15th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>up to $5000 based on need</strong> </li>
+                    <li> <strong>3.0-4.0 GPA</strong> </li>
+                    <li> <strong>Must be hispanic</strong> </li>
+                    <li> <strong>Fill out an application</strong> with information about yourself </li>
+                </ul>
             </li>
         </ul>
         <ul id="financial_aid">
@@ -692,6 +729,40 @@ function february(){
                     <li> <strong>anyone under 16</strong> </li>
                     <li> <strong>$1,000</strong> </li>
                     <li> <strong>Complete a self-initiated, action-based project</strong> that focuses on environmental health, advocacy, research, or the protection of the natural world</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://sccriminallaws.com/2025-scholarship/">https://sccriminallaws.com/2025-scholarship/</a>
+                <ul>
+                    <li> <strong>February 28th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>$1000</strong> </li>
+                    <li> <strong>Submit a resume, transcript, and 750 word essay</strong> about mental health reform in the United States.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://actionfornature.org/eco-hero-awards/">https://actionfornature.org/eco-hero-awards/</a>
+                <ul>
+                    <li> <strong>February 28th</strong> </li>
+                    <li> <strong>Must be between 8 to 16</strong> </li>
+                    <li> <strong>$1000</strong> </li>
+                    <li> <strong>Write about a long-term (at least 6 month long) project</strong> you have conducted related to the environment </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.sae.org/participate/scholarships/tau-beta-pi-sae-engineering-scholarship">https://www.sae.org/participate/scholarships/tau-beta-pi-sae-engineering-scholarship</a>
+                <ul>
+                    <li> <strong>February 28th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>3.75 unweighted GPA</strong> </li>
+                    <li> <strong>Pursuing an engineering or related science degree</strong> through an ABET accredited program</li>
+                    <li> <strong>Provide two Letters of Recommendation</strong> one focusing on academics and another that speaks about your extracurricular activities involvement or employment. AND <strong>write about your community service and leadership traits</strong> </li>
                 </ul>
             </li>
         </ul>
@@ -737,6 +808,28 @@ function march(){
                 </ul>
             </li>
         </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.projectyellowlight.com/">https://www.projectyellowlight.com/</a>
+                <ul>
+                    <li> <strong>March 1</strong> </li>
+                    <li> <strong>Juniors and Seniors</strong> </li>
+                    <li> <strong>$2,000</strong> </li>
+                    <li> <strong>Create a billboard design</strong> that motivates and persuades your peers to embrace safe driving habits </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://afsa.org/essay-contest">
+                <ul>
+                    <li> <strong>March 1st</strong> </li>
+                    <li> <strong>All grades</strong> </li>
+                    <li> <strong>Up to $2,500</strong> </li>
+                    <li> <strong>A 1,000 - 1,500 word essay</strong> on the following topic: “Critically assess what you believe to be the most significant effects of the Foreign Service’s work during the Vietnam War on contemporary U.S diplomacy”</li>
+                </ul>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://www.gallerycollection.com/greetingcardscontests.htm">https://www.gallerycollection.com/greetingcardscontests.htm</a>  
@@ -748,14 +841,62 @@ function march(){
                 </ul>
             </li>
         </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.ashg.org/dna-day/">https://www.ashg.org/dna-day/</a>
+                <ul>
+                    <li> <strong>March 5th</strong> </li>
+                    <li> <strong>All high schoolers</strong> </li>
+                    <li> <strong>Up to $1,000</strong> in grant for genetic materials </li>
+                    <li> <strong>750 word essay</strong> in response to a prompt regarding AI in healthcare and genetics</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href= "https://aasm.org/advocacy/high-school-video-contest/">https://aasm.org/advocacy/high-school-video-contest/</a>
+                <ul>
+                    <li> <strong>March 5</strong> </li>
+                    <li> <strong>All high school students</strong> </li>
+                    <li> <strong>$750</strong> </li>
+                    <li> <strong>Submit a 30-90 second video</strong> about why sleep is important for teens to be successful in life</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href="https://survey.alchemer.com/s3/8138676/Student-Scholarship-2025-NICU-Foundation">https://survey.alchemer.com/s3/8138676/Student-Scholarship-2025-NICU-Foundation</a>
+                <ul>
+                    <li> <strong>March 7th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>3.0 GPA</strong> </li>
+                    <li> <strong>$1,000</strong> </li>
+                    <li> <strong>letter of recommendation, transcript, and list of 5 extracurriculars</strong> </li>
+                    <li> <strong>700 word essay</strong> about your hopes for college, an influential person, or an obstacle you have overcome</li>
+                </ul>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://courageouspersuaders.com/distracted-driving/">https://courageouspersuaders.com/distracted-driving/</a>
                 <ul>
-                    <li> <strong>March 10, 2024</strong> </li>
+                    <li> <strong>March 10th</strong> </li>
                     <li> <strong>All high schoolers</strong> </li>
                     <li> <strong>$2000</strong> </li>
                     <li> <strong>Create a 30 second commercial</strong> targeted to middle schoolers to warm them about the dangers of distracted driving </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.pressclubinstitute.org/national-press-club-scholarship-opportunities/">https://www.pressclubinstitute.org/national-press-club-scholarship-opportunities/</a>
+                <ul>
+                    <li> <strong>March 16th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>     
+                    <li> <strong>3.0 GPA</strong> </li> 
+                    <li> <strong>Plan to pursue a career in journalism</strong> </li>
+                    <li> <strong>$5000</strong> </li>
+                    <li> <strong>Upload a transcript, resume, three work samples, three letters of recommendation, a description of your financial need, and a 500 word essay</strong> about how you will bring diversity to U.S. journalism.</li>
                 </ul>
             </li>
         </ul>
@@ -766,10 +907,44 @@ function march(){
                     <li> <strong>March 21st</strong> </li>
                     <li> <strong>All high school students</strong> </li>
                     <li> <strong>up to $2,500</strong> </li>
-                    <li> Submit a <strong>500-1,000 word essay</strong> about one of the four essay topics listed on the application </li>
+                    <li> <strong>500-1,000 word essay</strong> about one of the four essay topics listed on the application </li>
                 </ul>
             </li>
-        </ul>`
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://docs.google.com/forms/d/e/1FAIpQLSfT4IfxY9jYSl5KdwE6j0Fd2qOVLbKaXIlB_rDNsCZao1rdeA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfT4IfxY9jYSl5KdwE6j0Fd2qOVLbKaXIlB_rDNsCZao1rdeA/viewform</a>
+                <ul>
+                    <li> <strong>March 30</strong> </li>
+                    <li> <strong>All high schoolers</strong> </li>
+                    <li> <strong>$500</strong> </li>
+                    <li> <strong>3-5 minute video</strong> or powerpoint connecting to SD Nari’s mission of supporting South Asian women in San Diego, particularly those of Indian origin</li>
+                </ul>
+            </li>
+        </ul> 
+        <ul id = "financial aid">
+            <li class = "scholarship">
+                <a href = "https://automotivescholarships.com/apply-online/">https://automotivescholarships.com/apply-online</a>
+                <ul>
+                    <li> <strong>March 31st</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Up to $10,000</strong> </li>
+                    <li> <strong>Submit a transcript, letter of recommendation, and a one-page essay</strong> about your career goals </li>
+                <ul>
+            </li>
+        </ul> 
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href= "https://vfwauxiliary.org/scholarships/young-american-creative-patriotic-art-contest/">https://vfwauxiliary.org/scholarships/young-american-creative-patriotic-art-contest/</a>
+                <ul>
+                    <li> <strong>March 31st</strong> </li>
+                    <li> <strong>All grades</strong> </li>
+                    <li> <strongUp to $37,000</strong> </li>
+                    <li> <strong>2D or 3D artwork</strong> about your patriotism </li>
+                </ul>
+            </li>
+        </ul>
+        `
     );
 } 
 
@@ -786,6 +961,17 @@ function april(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h2>April Scholarships</h2>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href= "https://bold.org/scholarships/redefining-victory-scholarship/">https://bold.org/scholarships/redefining-victory-scholarship/</a>
+                <ul>
+                    <li> <strong>April 1st</strong> </li>
+                    <li> <strong>All high schoolers</strong> </li>
+                    <li> <strong>$2,500</strong> </li>
+                    <li> <strong>500-800 word essay</strong> on what success looks like and how this opportunity will help</li>
+                </ul>
+            </li>
+        </ul>
         <ul id = "financial_aid">
             <li class = "scholarship">
                 <a href = "https://mchekc.org/teachers-students/white-rose-students-research-contest-2024-2025">https://mchekc.org/teachers-students/white-rose-students-research-contest-2024-2025</a>

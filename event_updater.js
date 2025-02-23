@@ -1,5 +1,5 @@
 //updates information on current events page based on button input
-//current through 1/8
+//current through 2/19
 
 function august(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
@@ -170,13 +170,55 @@ function january(){
         <h2> January Events </h2>
         <ul>
             <li>
-                <a href="https://www.cnn.com/2024/12/18/science/astronauts-space-delay-return/index.html">https://www.cnn.com/2024/12/18/science/astronauts-space-delay-return/index.html</a> <br>
+                <a href = "https://www.cnn.com/2024/12/18/science/astronauts-space-delay-return/index.html">https://www.cnn.com/2024/12/18/science/astronauts-space-delay-return/index.html</a> <br>
                 NASA astronauts Suni Williams and Butch Wilmore, who have been aboard the International Space Station since June 2024, will have their return to Earth delayed until at least late March 2025 due to the need for additional time to prepare a new SpaceX Dragon spacecraft.
             </li>
             <li>
-                <a href="https://www.bbc.com/news/articles/c878ryr04p8o">https://www.bbc.com/news/articles/c878ryr04p8o</a> <br>
+                <a href = "https://www.bbc.com/news/articles/c878ryr04p8o">https://www.bbc.com/news/articles/c878ryr04p8o</a> <br>
                 Leader of Canada's Liberal Party, Justin Trudeau, resigns due to growing disapproval of him and his party and pressure from the United States.
+            </li>
+            <li>
+                <a href = "https://www.foxnews.com/us/californians-angry-devastating-wildfires-asking-where-high-tax-dollars-went-local-researcher">https://www.foxnews.com/us/californians-angry-devastating-wildfires-asking-where-high-tax-dollars-went-local-researcher</a> <br>
+                Amid the ongoing devastation of wildfires in Los Angeles, many Californians are questioning how their high tax dollars are being allocated, as officials struggle to control the fires that have destroyed over 12,300 homes and caused at least 11 deaths
+            </li>
+            <li>
+                <a href = "https://www.cnn.com/2025/01/21/business/mr-beast-buy-tiktok-ceo/index.html">https://www.cnn.com/2025/01/21/business/mr-beast-buy-tiktok-ceo/index.html</a>
+                On the 19th TikTok got shut down before returning only 14 hours later. The shutdown was due to a bill stating that TikTok must be sold to a United States company in order to stay in the US. Mr. Beast wants to buy TikTok to keep it in the US.
+            </li>
+            <li>
+                <a href = "https://www.foxweather.com/extreme-weather/north-carolina-wildfire-hurricane-helene">https://www.foxweather.com/extreme-weather/north-carolina-wildfire-hurricane-helene</a>
+                Old Fort was devastated by Hurricane Helene in September. The town is still working to rebuild after flooding destroyed much of western North Carolina.
             </li>
         </ul>`
     );
+}
+
+function february(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("current_desktop");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("current_mobile");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2> February Events </h2>
+        <ul>
+              <li>
+                <a href = "https://www.cnn.com/2025/02/05/science/lunar-grand-canyons-far-side-moon/index.html">https://www.cnn.com/2025/02/05/science/lunar-grand-canyons-far-side-moon/index.html</a> 
+                Two long, deep lunar canyons can be seen radiating from the Schrödinger impact basin near the lunar south pole on the moon's far side. The image was captured by the Lunar Reconnaissance Orbiter.
+            </li>
+            <li>
+                <a href = "https://www.cnn.com/2025/02/12/science/energetic-neutrino-particle-detection/index.html">https://www.cnn.com/2025/02/12/science/energetic-neutrino-particle-detection/index.html</a>
+                A Cubic Kilometre Neutrino Telescope, or KM3NeT, detection unit is shown before being lowered to the ocean floor in the Mediterranean Sea. 
+            </li>
+            <li>
+                <a href = "https://www.cnn.com/2025/02/19/food/kfc-kentucky-headquarters-texas/index.html">https://www.cnn.com/2025/02/19/food/kfc-kentucky-headquarters-texas/index.html</a>
+                KFC, the fast food chain formerly known as Kentucky Fried Chicken, is leaving the state where it all began
+            </li>
+
+    `);
 }

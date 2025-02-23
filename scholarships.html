@@ -14,7 +14,7 @@
     
 </head>
 
-<body onload="january()">
+<body onload="february()">
     <nav class="navbar navbar-expand-lg nav_color">
         <img src="static\images\new_owl_diff_eyes(resized).png" alt="website logo" class="HideOnMobile">
         <a class="navbar-brand header_link" href="index.html">CA-935th Education</a>
@@ -62,18 +62,18 @@
                 <div class="month" onclick="december()">
                     <h4>December</h4>
                 </div>
-            </div>
-            <div class="past_future">
-                <h2>Current Scholarships</h2>
                 <div class="month" onclick="january()">
                     <h4>January</h4>
                 </div>
             </div>
             <div class="past_future">
-                <h2>Future Scholarships</h2>
+                <h2>Current Scholarships</h2>
                 <div class="month" onclick="february()">
                     <h4>February</h4>
                 </div>
+            </div>
+            <div class="past_future">
+                <h2>Future Scholarships</h2>
                 <div class="month" onclick="march()">
                     <h4>March</h4>
                 </div>
@@ -119,18 +119,18 @@
                 <div class="month" onclick="december()">
                     <h4>December</h4>
                 </div>
-            </div>
-            <div class="past_future">
-                <h2>Current Scholarships</h2>
                 <div class="month" onclick="january()">
                     <h4>January</h4>
                 </div>
             </div>
             <div class="past_future">
-                <h2>Future Scholarships</h2>
+                <h2>Current Scholarships</h2>
                 <div class="month" onclick="february()">
                     <h4>February</h4>
                 </div>
+            </div>
+            <div class="past_future">
+                <h2>Future Scholarships</h2>
                 <div class="month" onclick="march()">
                     <h4>March</h4>
                 </div>
@@ -224,28 +224,30 @@
     }
 
     function search_scholarship() {
-            let input = document.getElementById('searchbar').value.trim().toLowerCase();
-            let scholarships = document.getElementsByClassName('scholarship');
-            
-            for (let i = 0; i < scholarships.length; i++) {
-                let originalHTML = scholarships[i].getAttribute('data-original');
-                console.log(originalHTML);
-                if (!originalHTML) continue;
-                console.log("continued")
-                let scholarshipText = scholarships[i].textContent.toLowerCase();
+        let input = document.getElementById('searchbar').value.trim().toLowerCase();
+        let scholarships = document.getElementsByClassName('scholarship');
+        console.log(scholarships);
+        for (let i = 0; i < scholarships.length; i++) {
+            let originalHTML = scholarships[i].getAttribute('data-original');
+            console.log(originalHTML);
+            if (!originalHTML) continue;
+            console.log("continued")
+            let scholarshipText = scholarships[i].textContent.toLowerCase();
 
-                if (scholarshipText.includes(input) && input !== "") {
-                    let regex = new RegExp(`(${input.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi');
-                    scholarships[i].innerHTML = originalHTML.replace(regex, '<span style="color:#FFB800;">$1</span>');
-                    scholarships[i].style.display = "list-item";
-                } else if (input === "") {
-                    scholarships[i].innerHTML = originalHTML;
-                    scholarships[i].style.display = "list-item";
-                } else {
-                    scholarships[i].style.display = "none";
-                }
+            if (scholarshipText.includes(input) && input !== "") {
+                let regex = new RegExp(`(${input.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi');
+                scholarships[i].innerHTML = originalHTML.replace(regex, '<span style="color:#FFB800;">$1</span>');
+                scholarships[i].style.display = "list-item";
+            } 
+            else if (input === "") {
+                scholarships[i].innerHTML = originalHTML;
+                scholarships[i].style.display = "list-item";
+            } 
+            else {
+                scholarships[i].style.display = "none";
             }
         }
+    }
    
 
     //updates scholarhip listing based on the button you press. 
