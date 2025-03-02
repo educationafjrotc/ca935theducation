@@ -189,3 +189,19 @@ function environmentalBiologist(){
     );
 } 
 
+function financialPlanner(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("monthlyD");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("monthlyM");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJX6Pnq4Gn1PnuihtcLUe1AiS07MZnPd31ref-a_anPzlzkyIooQ8swFEKXUHKalH0vcdDUs040QrE/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style = "float:left; left:0vw; height:70vh;"></iframe>
+        `
+    );
+}
