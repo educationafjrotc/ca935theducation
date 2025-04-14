@@ -200,7 +200,7 @@ function financialPlanner(){
         console.log("mobile");
     }
     main.innerHTML="";
-    main.insertAdjacentHTML("afterbegin",`
+    main.insertAdjacentHTML("afterbegin",`+
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJX6Pnq4Gn1PnuihtcLUe1AiS07MZnPd31ref-a_anPzlzkyIooQ8swFEKXUHKalH0vcdDUs040QrE/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style = "float:left; left:0vw; height:70vh;"></iframe>
         `
     );

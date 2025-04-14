@@ -207,18 +207,84 @@ function february(){
     main.insertAdjacentHTML("afterbegin",`
         <h2> February Events </h2>
         <ul>
-              <li>
-                <a href = "https://www.cnn.com/2025/02/05/science/lunar-grand-canyons-far-side-moon/index.html">https://www.cnn.com/2025/02/05/science/lunar-grand-canyons-far-side-moon/index.html</a> 
+            <li>
+                <a href = "https://www.cnn.com/2025/02/05/science/lunar-grand-canyons-far-side-moon/index.html">https://www.cnn.com/2025/02/05/science/lunar-grand-canyons-far-side-moon/index.html</a> <br>
                 Two long, deep lunar canyons can be seen radiating from the Schrödinger impact basin near the lunar south pole on the moon's far side. The image was captured by the Lunar Reconnaissance Orbiter.
             </li>
             <li>
-                <a href = "https://www.cnn.com/2025/02/12/science/energetic-neutrino-particle-detection/index.html">https://www.cnn.com/2025/02/12/science/energetic-neutrino-particle-detection/index.html</a>
+                <a href = "https://www.cnn.com/2025/02/12/science/energetic-neutrino-particle-detection/index.html">https://www.cnn.com/2025/02/12/science/energetic-neutrino-particle-detection/index.html</a> <br>
                 A Cubic Kilometre Neutrino Telescope, or KM3NeT, detection unit is shown before being lowered to the ocean floor in the Mediterranean Sea. 
             </li>
             <li>
-                <a href = "https://www.cnn.com/2025/02/19/food/kfc-kentucky-headquarters-texas/index.html">https://www.cnn.com/2025/02/19/food/kfc-kentucky-headquarters-texas/index.html</a>
+                <a href = "https://www.cnn.com/2025/02/19/food/kfc-kentucky-headquarters-texas/index.html">https://www.cnn.com/2025/02/19/food/kfc-kentucky-headquarters-texas/index.html</a> <br>
                 KFC, the fast food chain formerly known as Kentucky Fried Chicken, is leaving the state where it all began
             </li>
+            <li>
+                <a href = "https://www.cnn.com/2025/02/26/world/video/body-on-plane-qatar-airways-digvid">https://www.cnn.com/2025/02/26/world/video/body-on-plane-qatar-airways-digvid</a> <br>
+                An Australian couple says they were on a flight from Melbourne to Doha when the cabin crew put the body of a passenger who had died next to them
+            </li>
+        </ul>
 
     `);
 }
+
+function march(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("current_desktop");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("current_mobile");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2> March Events </h2>
+        <ul>
+            <li>
+                <a href="https://www.cnn.com/2025/03/05/weather/storm-tornado-blizzard-fire-outage-hnk/index.html">https://www.cnn.com/2025/03/05/weather/storm-tornado-blizzard-fire-outage-hnk/index.html</a> <br>
+                Workers walk outside a damaged warehouse after storms moved through Lewisville, Texas, on March 4
+            </li>
+            <li>
+                <a href="https://www.aljazeera.com/news/2025/3/11/why-trumps-tariff-chaos-sparked-stock-market-meltdown-and-recession-fears">https://www.aljazeera.com/news/2025/3/11/why-trumps-tariff-chaos-sparked-stock-market-meltdown-and-recession-fears</a> <br>
+                High tariffs have led investors to rapidly sell stocks that were once considered safe investments. These tariffs have been detrimental for stock markets both in the US and abroad but Trump and his team project that tariffs will lead to more jobs and economic growth in the future. 
+            </li>
+            <li>
+                <a href="https://www.nbcnews.com/politics/trump-administration/trump-set-sign-executive-order-shuttering-department-education-rcna197191">https://www.nbcnews.com/politics/trump-administration/trump-set-sign-executive-order-shuttering-department-education-rcna197191</a> <br>
+                Donald Trump is set to shut down the Department of Education on Thursday due to its funding for DEI programs. The Department of Education currently funds programs like FAFSA and sets guidelines on what schools should be teaching.
+            </li>
+            <li>
+                <a href="https://www.bbc.com/news/articles/c234j4yj3klo">https://www.bbc.com/news/articles/c234j4yj3klo</a> <br>
+                China has traditionally had a policy of not commenting on other country’s actions but has broken this precedent to condemn Rwanda for funding M23 rebels in mineral-rich DR Congo.
+            </li>
+            <li>
+                <a href="https://www.cnn.com/2025/04/09/politics/trump-tariffs-retreat-bond-market/index.html">https://www.cnn.com/2025/04/09/politics/trump-tariffs-retreat-bond-market/index.html</a> <br>
+                Trump defends his tariff plans despite market drops and criticism from business leaders.
+            </li>
+        </ul>
+    `);
+}
+
+function april(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("current_desktop");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("current_mobile");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2> March Events </h2>
+        <ul>
+            <li>
+            </li>
+        </ul>
+    `);
+}
+
+
+

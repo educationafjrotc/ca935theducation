@@ -821,7 +821,7 @@ function march(){
         </ul>
         <ul id = "financial_aid">
             <li class = "scholarship">
-                <a href = "https://afsa.org/essay-contest">
+                <a href = "https://afsa.org/essay-contest">https://afsa.org/essay-contest</a>
                 <ul>
                     <li> <strong>March 1st</strong> </li>
                     <li> <strong>All grades</strong> </li>
@@ -889,6 +889,40 @@ function march(){
         </ul>
         <ul id = "financial_aid">
             <li class = "scholarship">
+                <a href = "https://www.microsoft.com/en-us/diversity/programs/women-at-microsoft-scholarship?oneroute=true">https://www.microsoft.com/en-us/diversity/programs/women-at-microsoft-scholarship?oneroute=true</a>
+                <ul>
+                    <li> <strong>March 13th</strong> </li>
+                    <li> <strong>Senior</strong> </li>
+                    <li> <strong>3.0 UWGPA</strong> </li>
+                    <li> <strong>Identify as a woman or non-binary</strong> </li>
+                    <li> <strong>Submit one letter of recommendation, transcript, and a statement of career and educational goals and objectives</strong> </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://geraldrfordfoundation.org/student-writing-challenge/">https://geraldrfordfoundation.org/student-writing-challenge/</a>
+                <ul>
+                    <li> <strong>March 14th</strong> </li>
+                    <li> <strong> All high schoolers</strong> </li>
+                    <li> <strong>Up to $2,500</strong> </li>
+                    <li> <strong>Write a 500-750 word essay</strong> about what has prepared you to follow Gerald Ford’s example of answering the call to serve?</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarhip">
+                <a href = "https://www.uct.org/wp-content/uploads/2024/02/UCTC-Heaston-Scholarship-Application.pdf">https://www.uct.org/wp-content/uploads/2024/02/UCTC-Heaston-Scholarship-Application.pdf</a>
+                <ul>
+                    <li> <strong>March 15th</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Up to $6000</strong> </li>
+                    <li> <strong>Three letters of recommendation, transcript, and a maximum two-page essay</strong> about how you have overcome obstacles to achieve your goal.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
                 <a href = "https://www.pressclubinstitute.org/national-press-club-scholarship-opportunities/">https://www.pressclubinstitute.org/national-press-club-scholarship-opportunities/</a>
                 <ul>
                     <li> <strong>March 16th</strong> </li>
@@ -915,14 +949,25 @@ function march(){
             <li class = "scholarship">
                 <a href = "https://docs.google.com/forms/d/e/1FAIpQLSfT4IfxY9jYSl5KdwE6j0Fd2qOVLbKaXIlB_rDNsCZao1rdeA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfT4IfxY9jYSl5KdwE6j0Fd2qOVLbKaXIlB_rDNsCZao1rdeA/viewform</a>
                 <ul>
-                    <li> <strong>March 30</strong> </li>
+                    <li> <strong>March 30th</strong> </li>
                     <li> <strong>All high schoolers</strong> </li>
                     <li> <strong>$500</strong> </li>
-                    <li> <strong>3-5 minute video</strong> or powerpoint connecting to SD Nari’s mission of supporting South Asian women in San Diego, particularly those of Indian origin</li>
+                    <li> <strong>3-5 minute video</strong> or powerpoint connecting to SD Nari’s mission of supporting South Asian women in San Diego, particularly those of Indian origin </li>
                 </ul>
             </li>
         </ul> 
-        <ul id = "financial aid">
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.seut.net/events/contest">https://www.seut.net/events/contest</a>
+                <ul>
+                    <li> <strong>March 30th</strong> </li>
+                    <li> <strong>All high schoolers</strong> </li>
+                    <li> <strong>$2,000</strong> </li>
+                    <li> Write a <strong>750-1000 word essay</strong> about the biggest challenge in data and technology, your personal experience with the challenge, and how you think the issue could be solved</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
             <li class = "scholarship">
                 <a href = "https://automotivescholarships.com/apply-online/">https://automotivescholarships.com/apply-online</a>
                 <ul>
@@ -930,7 +975,7 @@ function march(){
                     <li> <strong>Seniors</strong> </li>
                     <li> <strong>Up to $10,000</strong> </li>
                     <li> <strong>Submit a transcript, letter of recommendation, and a one-page essay</strong> about your career goals </li>
-                <ul>
+                </ul>
             </li>
         </ul> 
         <ul id = "financial_aid">
@@ -941,6 +986,28 @@ function march(){
                     <li> <strong>All grades</strong> </li>
                     <li> <strongUp to $37,000</strong> </li>
                     <li> <strong>2D or 3D artwork</strong> about your patriotism </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = scholarship">
+                <a href = "https://www.districtsmakethedifference.org/video-contest">https://www.districtsmakethedifference.org/video-contest</a>
+                <ul>
+                    <li> <strong>March 31st</strong> </li>
+                    <li> <strong>All high schoolers</strong> </li>
+                    <li> <strong>Up to $2,000</strong> </li>
+                    <li> <strong>Create a 60 second video</strong> talking about how special district can make a difference</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "finanacial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.vfw.org/VOD/">https://www.vfw.org/VOD/</a>
+                <ul>
+                    <li> <strong>March 31st</strong> </li>
+                    <li> <strong>All high school students</strong> </li>
+                    <li> <strong>$35,000</strong> </li>
+                    <li> <strong>Make a 3-5 minutes audio essay</strong> answering the prompt How are you showing patriotism and support to our country?</li>
                 </ul>
             </li>
         </ul>
@@ -969,6 +1036,28 @@ function april(){
                     <li> <strong>All high schoolers</strong> </li>
                     <li> <strong>$2,500</strong> </li>
                     <li> <strong>500-800 word essay</strong> on what success looks like and how this opportunity will help</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.teamvickisoto.com/scholarships">https://www.teamvickisoto.com/scholarships</a>
+                <ul>
+                    <li> <strong>April 1st</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Intend to pursue a degree in education</strong> </li>
+                    <li> <strong>Submit one letter of recommendation, one transcript, and 1-2 page essay</strong> about what a degree in education means to you and how you represent Vicki’s legacy</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.beart-presets.com/beart-scholarship-program">https://www.beart-presets.com/beart-scholarship-program</a>
+                <ul>
+                    <li> <strong>April 1st</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>$2500</strong> </li>
+                    <li> <strong>Minimum 1000 word essay</strong> on "Digital photography Tips” or “Which place would you like to visit for a perfect vacation”</li>
                 </ul>
             </li>
         </ul>
@@ -1030,6 +1119,52 @@ function may(){
                     <li> <strong>All high school</strong> </li>
                     <li> <strong>$100,000</strong> </li>
                     <li> <strong>Create a way to help solve real-life problems</strong> in homes, schools, communities, and/or around the world and <strong>submit a brief statement about your idea</strong> (140 -characters or less) . (Entries may come in the form of posters, videos, inventions, messages, community events, websites, pr mobile apps)</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://chiureviews.com/reviews.php">https://chiureviews.com/reviews.php</a>
+                <ul>
+                    <li> <strong>May 15th</strong> </li>
+                    <li> <strong>Senior</strong> </li>
+                    <li> <strong>2.5 GPA</strong> </li>
+                    <li> <strong>$1000</strong> </li>
+                    <li> <strong>Write a 1000 word</strong> movie review</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "finanacial_aid">
+            <li class = "scholarship">
+                <a href = "http://yipinstitute.org/essay-contest">http://yipinstitute.org/essay-contest</a>
+                <ul>
+                    <li> <strong>May 16th</strong> </li>
+                    <li> <strong>All high schoolers</strong> </li>
+                    <li> <strong>Up to $500</strong> </li>
+                    <li> <strong>Submit an essay about one of the two prompts</strong> related to current events and today’s issues listed on the website</li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.broweryouthawards.org/programs/brower-youth-awards/apply/">https://www.broweryouthawards.org/programs/brower-youth-awards/apply/</a>
+                <ul>
+                    <li> <strong>May 20</strong> </li>
+                    <li> <strong>All high schoolers</strong> </li>
+                    <li> <strong>$3,000</strong> </li>
+                    <li> <strong>Must have played a major role in</strong< a leadership in creating, organizing, and implementing <strong>an environmental project</strong> </li>
+                    <li> <strong>A short film</strong> produced about their work, a trip to participate in leadership development activities </li>
+                </ul>
+            </li>
+        </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.freedomforum.org/al-neuharth-free-spirit-and-journalism-conference/">https://www.freedomforum.org/al-neuharth-free-spirit-and-journalism-conference/</a>
+                <ul>
+                    <li> <strong>May 23rd</strong> </li>
+                    <li> <strong>Juniors</strong> </li>
+                    <li> <strong>$1000</strong> and a journalism conference in DC </li>
+                    <li> <strong>Submit two letters of recommendation, three examples of your journalism, and two 500 word essays</strong>: 1 about your interest in journalism and 1 about what makes you a free spirit.</li>
                 </ul>
             </li>
         </ul>
