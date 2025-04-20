@@ -278,11 +278,15 @@ function april(){
     }
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`
-        <h2> March Events </h2>
+        <h2> April Events </h2>
         <ul>
             <li>
+                <a href="https://www.npr.org/sections/shots-health-news/2025/04/16/nx-s1-5366676/autism-cdc-rates-rfk-research">https://www.npr.org/sections/shots-health-news/2025/04/16/nx-s1-5366676/autism-cdc-rates-rfk-research</a> <br>
+                RFK pushes for research into environmental causes of autism stating that the number of autism diagnoses has gone up significantly in recent decades. Critics argue that doctors have simply gotten better at recognizing it.
             </li>
+            
         </ul>
+    
     `);
 }
 

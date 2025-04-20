@@ -1204,3 +1204,30 @@ function may(){
         `
 );
 } 
+
+function june(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("monthlyD");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("monthlyM");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
+        <h3>June Scholarships</h3>
+        <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://artbatdf.org/scholarships-awards/student-video-contest/">https://artbatdf.org/scholarships-awards/student-video-contest/</a>
+                <ul>
+                    <li> <strong>June 02</strong> </li>
+                    <li> <strong>All high school</strong> </li>
+                    <li> <strong>up to $500</strong> </li>
+                    <li> <strong>Make a Video(s) under 2 ½ minutes</strong> focusing on transportation impacts, trends, funding, or safety</li>
+                </ul>
+            </li>
+        </ul>
+   `);  
+}
