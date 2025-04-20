@@ -1,5 +1,5 @@
 //updates information on scholarship page based on button input
-//current through 2/19
+//current through 4/16
 //calender current through 11/3
 
 function july(){ 

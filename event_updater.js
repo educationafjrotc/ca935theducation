@@ -1,5 +1,5 @@
 //updates information on current events page based on button input
-//current through 2/19
+//current through 4/16
 
 function august(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
