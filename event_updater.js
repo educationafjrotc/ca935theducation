@@ -1,7 +1,6 @@
 //updates information on current events page based on button input
-//current through 4/16
+//current through 4/30
 
-//check /static/templates/sample.updater for information on how these work
 function august(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     if (width>1033){
@@ -285,11 +284,33 @@ function april(){
                 <a href="https://www.npr.org/sections/shots-health-news/2025/04/16/nx-s1-5366676/autism-cdc-rates-rfk-research">https://www.npr.org/sections/shots-health-news/2025/04/16/nx-s1-5366676/autism-cdc-rates-rfk-research</a> <br>
                 RFK pushes for research into environmental causes of autism stating that the number of autism diagnoses has gone up significantly in recent decades. Critics argue that doctors have simply gotten better at recognizing it.
             </li>
-            
+            <li>
+                <a href="https://www.cnn.com/2025/04/23/politics/trump-college-accreditation-process-executive-order/index.html">https://www.cnn.com/2025/04/23/politics/trump-college-accreditation-process-executive-order/index.html</a> <br>
+                Trump signed executive orders to reform college accreditation and enforce foreign funding disclosures, targeting ideological bias and transparency.
+            </li>
+            <li>
+                <a href="https://www.cnn.com/2025/04/26/asia/india-family-friends-shattered-tourist-massacre-kashmir-intl-hnk/index.html">https://www.cnn.com/2025/04/26/asia/india-family-friends-shattered-tourist-massacre-kashmir-intl-hnk/index.html</a> <br>
+                Last week, 26 tourists were killed in a massacre in Kashmir. The region has been the topic of intense debate and fighting between India and Pakistan, this attack has only worsened tensions.
+            </li>
         </ul>
+        
+
     
     `);
 }
-
-
+function may(){
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width>1033){
+        var main = document.getElementById("current_desktop");
+        console.log("desktop");
+    }
+    else{
+        var main = document.getElementById("current_mobile");
+        console.log("mobile");
+    }
+    main.innerHTML="";
+    main.insertAdjacentHTML("afterbegin",`
+        <h2> May Events </h2>
+`);
+    }
 

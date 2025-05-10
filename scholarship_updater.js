@@ -1,5 +1,5 @@
 //updates information on scholarship page based on button input
-//current through 4/16
+//current through 4/20
 //calender current through 11/3
 
 //check /static/templates/sample.updater for information on how these work
@@ -1135,6 +1135,18 @@ function may(){
                 </ul>
             </li>
         </ul>
+        <ul id = "financial_aid">
+            <li class = "scholarship">
+                <a href = "https://www.seniorcare.com/scholarship/">https://www.seniorcare.com/scholarship/</a>
+                <ul>
+                    <li> <strong>May 15th</strong> </li>
+                    <li> <strong>Senior</strong> </li>
+                    <li> <strong>Currently cares for an elderly loved one, works with elderly people, or plans to major in a field that will impact the elderly population</strong> </li>
+                    <li> <strong>$1500</strong> </li>
+                    <li> <strong>Write an essay 1000 word essay </strong>about why aging matters</li>
+                </ul>
+            </li>
+        </ul>
         <ul id = "finanacial_aid">
             <li class = "scholarship">
                 <a href = "http://yipinstitute.org/essay-contest">http://yipinstitute.org/essay-contest</a>
@@ -1219,6 +1231,19 @@ function june(){
     main.innerHTML="";
     main.insertAdjacentHTML("afterbegin",`<input id="searchbar" onkeyup="search_scholarship()" type="text" name="search" placeholder="Search scholarships..">
         <h3>June Scholarships</h3>
+         <ul id="financial_aid">
+            <li class="scholarship">
+                <a href="https://nvmusa.org/assets/downloads/NVM-Scholarship-Application_2025-2026.pdf/">https://nvmusa.org/assets/downloads/NVM-Scholarship-Application_2025-2026.pdf/</a>
+                <ul>
+                    <li> <strong>June 01</strong> </li>
+                    <li> <strong>Seniors</strong> </li>
+                    <li> <strong>Minimum 3.0 GPA</strong> </li>
+                    <li> <strong>Must be a Woman who is majoring in a videogame or technology related field</strong> </li>
+                    <li> <strong>up to $5000</strong> </li>
+                    <li> <strong>Two letters of recommendation</strong> one about your technology experience and another about your community involvement <strong>minimum 500 word essay </strong>about your academic and professional goals + how this scholarship will help you </li>
+                </ul>
+            </li>
+        </ul>
         <ul id="financial_aid">
             <li class="scholarship">
                 <a href="https://artbatdf.org/scholarships-awards/student-video-contest/">https://artbatdf.org/scholarships-awards/student-video-contest/</a>
@@ -1226,7 +1251,7 @@ function june(){
                     <li> <strong>June 02</strong> </li>
                     <li> <strong>All high school</strong> </li>
                     <li> <strong>up to $500</strong> </li>
-                    <li> <strong>Make a Video(s) under 2 ½ minutes</strong> focusing on transportation impacts, trends, funding, or safety</li>
+                    <li> <strong>Make a Video(s) under 2 minutes and 30 seconds</strong> focusing on transportation impacts, trends, funding, or safety</li>
                 </ul>
             </li>
         </ul>
