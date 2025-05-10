@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="month_styles.css" />
-    <title>CA-935th Scholarships</title>
-    <link rel="sortcut icon" type="image/x-icon" href='static/images/favicon.ico'>
+    <link rel="stylesheet" type="text/css" href="styles.css" /> <!--general site css-->
+    <link rel="stylesheet" type="text/css" href="month_styles.css" /> <!--css to control the look of the side tabs -->
+    <title>CA-935th Scholarships</title> <!--the title displayed in the browser tab-->
+    <link rel="sortcut icon" type="image/x-icon" href='static/images/favicon.ico'> <!--adds the education logo in the browser tab-->
     
 </head>
 
-<body onload="april()">
+<body onload="april()"> <!--the onload function tells the website which function to use when the website first loads-->
+    <!-- Navbar do not change except for adding new links to the navigation bar-->
     <nav class="navbar navbar-expand-lg nav_color">
         <img src="static\images\new_owl_diff_eyes(resized).png" alt="website logo" class="HideOnMobile">
         <a class="navbar-brand header_link" href="index.html">CA-935th Education</a>
@@ -37,10 +38,12 @@
             </li>
           </ul>
         </div>
-      </nav> 
+    </nav> 
     
     <div class="main">
+         <!--primary content of the website-->
         <div class="HideOnMobile">
+            <!--side tab with all of the months-->
             <div id="sidebar_desktop">
                 <div class="past_future">
                     <h2>Past Scholarships</h2>
@@ -88,6 +91,7 @@
                     </div>
                 </div>
             </div>
+            <!--primary content of this page. displays the content from the function call on the month tab-->
             <div id="mainContent">
                 <div id="monthlyD"> </div>
                 <div id="calendar">
@@ -96,11 +100,13 @@
             </div>
         </div>
         <div class="ShowOnMobile">
+            <!--shows and hides the months bar on mobile-->
             <div id="toggle" onclick="myFunction(this)" onclick="myfunc()">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
+            <!--side tab with all of the months-->
             <div id="sidebar_mobile">
                 <div class="past_future">
                     <h2>Past Scholarships</h2>
@@ -145,6 +151,7 @@
                     </div>
                 </div>
             </div>
+            <!--primary content of this page. displays the content from the function call on the month tab-->
             <div id="current_mobile">
                 <div id="mainContent">
                     <div id="monthlyM"> </div>
@@ -155,6 +162,7 @@
             </div>
         </div>
 
+        <!--footers. do not change except for adding new links-->
         <footer class="HideOnMobile">
             <div class="container">
             <h1 class="name">CA-935th<br>Education</h1>
@@ -193,9 +201,13 @@
         </footer>
     </div> <!--closes class "main"-->
 </body>
+
+<!--DO NOT REMOVE. This javascript makes the navigation bar work-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!--links this page to the scholarship_updater.js file. DO NOT REMOVE-->
 <script src="scholarship_updater.js"></script>
 <script>
     //sidebar expander for mobile from W3Schools
@@ -226,6 +238,8 @@
       li.classList.toggle("show");
     }
 
+    //chat-gpt search function
+    //updates scholarhip listing based on the button you press.
     function search_scholarship() {
         let input = document.getElementById('searchbar').value.trim().toLowerCase();
         let scholarships = document.getElementsByClassName('scholarship');
@@ -250,10 +264,7 @@
                 scholarships[i].style.display = "none";
             }
         }
-    }
-   
-
-    //updates scholarhip listing based on the button you press. 
+    } 
    
 </script>
 </html>

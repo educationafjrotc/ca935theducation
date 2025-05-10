@@ -62,6 +62,7 @@ IDEAS FOR FUTURE ADDITIONS
     1. Change the image on index.html to something else
 
     2. The fonts are in the same directory as the html files because firefox won't load them if they are in a different folder. If you find a way to get the page load properly and have the font files in the static folder please implement it. 
+    3. If you want to make a new webpage check /static/templates for help!
 
 
 

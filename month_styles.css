@@ -1,4 +1,4 @@
-
+/*controlls of the css for all of the side tabs*/
 h2{
     padding-top:1vw;
 }
@@ -82,9 +82,7 @@ h2{
 }
 
 .HideOnMobile #financial_aid , .HideOnMobile #brigade{
-    /*margin-left:35vw;*/
     text-align: left;
-   
 }
 
 #monthlyD ul, #monthlyD li, #monthlyM ul, #monthlyM li, .ShowOnMobile #financial_aid, .ShowOnMobile #brigade{

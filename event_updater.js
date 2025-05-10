@@ -1,6 +1,7 @@
 //updates information on current events page based on button input
 //current through 4/16
 
+//check /static/templates/sample.updater for information on how these work
 function august(){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     if (width>1033){

@@ -2,6 +2,7 @@
 //current through 4/16
 //calender current through 11/3
 
+//check /static/templates/sample.updater for information on how these work
 function july(){ 
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     if (width>1033){
